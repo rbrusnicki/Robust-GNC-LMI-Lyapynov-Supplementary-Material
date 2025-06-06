@@ -36,7 +36,7 @@ VS50-Supplementary-Material/
 
 **Total: 88 High-Resolution Figures**
 
-## 📖 Chapter Contents
+## 📖 Supplementary Material Content
 
 <details>
 <summary> <h3> 📚 Introduction </h3> </summary>
@@ -985,15 +985,33 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <details>
 <summary> <h3> 📈 Additional Results of MATLAB Simulation - Closed Loop Bode Plots </h3> </summary>
 
-**Content**: Detailed frequency response analysis, closed-loop Bode plots, controller comparisons across all flight phases
+<details>
+<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.1 Closed Loop Bode Plot of Conventional Attitude Controller </h4> </summary>
 
-#### Closed-Loop Frequency Analysis
-*Comprehensive Bode plot analysis for various controller configurations and flight conditions*
+**Content**: Closed-loop frequency response analysis for conventional attitude control system across all flight phases
 
-#### Controller Performance Comparison
-*Detailed frequency domain comparison between current and robust control approaches*
+</details>
 
-*Total: 15 high-resolution Bode plots for comprehensive frequency domain analysis*
+<details>
+<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.2 Closed Loop Bode Plot of Conventional Guidance Controller </h4> </summary>
+
+**Content**: Closed-loop frequency response analysis for conventional guidance control system across all flight phases
+
+</details>
+
+<details>
+<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.3 Closed Loop Bode Plot of Proposed Attitude Controller </h4> </summary>
+
+**Content**: Closed-loop frequency response analysis for proposed robust attitude control system across all flight phases
+
+</details>
+
+<details>
+<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.4 Closed Loop Bode Plot of Proposed Guidance Controller </h4> </summary>
+
+**Content**: Closed-loop frequency response analysis for proposed robust guidance control system across all flight phases
+
+</details>
 
 </details>
 
