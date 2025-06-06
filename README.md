@@ -840,16 +840,6 @@ In summary, the successful results achieved are as follows:
 • **Eigen Frequencies:**
   - The filter implemented in the FCC successfully removed the eigenfrequency of 20Hz included in the DMARS attitude data – not inducing rocket natural resonances.
 
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/59.png" alt="Result Analysis" title="HIL result analysis" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>HIL result analysis</strong></p>
-
-<br><br>
-
 </details>
 
 <details>
