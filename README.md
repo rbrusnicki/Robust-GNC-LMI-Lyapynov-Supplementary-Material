@@ -39,7 +39,7 @@ VS50-Supplementary-Material/
 ## 📖 Chapter Contents
 
 <details>
-<summary> <h3> 📚 Chapter 1: Introduction (1 figure) </h3> </summary>
+<summary> <h3> 📚 Chapter 1: Introduction </h3> </summary>
 
 **Content**: Research motivation, problem formulation, control objectives, VS-50 launch vehicle system overview
 
@@ -55,7 +55,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 </details>
 
 <details>
-<summary> <h3> 🔍 Chapter 2: Literature Review (7 figures) </h3> </summary>
+<summary> <h3> 🔍 Mathematical modeling for the VS-50 vehicle </h3> </summary>
 
 **Content**: State-of-the-art review in launch vehicle control, reference coordinate systems, fundamental mathematical concepts
 
@@ -111,7 +111,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 </details>
 
 <details>
-<summary> <h3> ⚙️ Chapter 3: Mathematical Modeling and Control (28 figures) </h3> </summary>
+<summary> <h3> ⚙️ Chapter 3: Mathematical Modeling and Control </h3> </summary>
 
 **Content**: Complete mathematical model, control system design, LMI synthesis methodology, Hardware-in-the-Loop setup
 
@@ -197,7 +197,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 </details>
 
 <details>
-<summary> <h3> 📊 Chapter 4: Results and Analysis (27 figures) </h3> </summary>
+<summary> <h3> 📊 Chapter 4: Results and Analysis </h3> </summary>
 
 **Content**: Comprehensive results comparing current vs. proposed controllers, frequency and time domain analysis, robustness verification
 
@@ -215,7 +215,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 </details>
 
 <details>
-<summary> <h3> 📈 Annex A: Additional Bode Plots (15 figures) </h3> </summary>
+<summary> <h3> 📈 Annex A: Additional Bode Plots </h3> </summary>
 
 **Content**: Detailed frequency response analysis, closed-loop Bode plots, controller comparisons across all flight phases
 
@@ -230,7 +230,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 </details>
 
 <details>
-<summary> <h3> ⚠️ Annex B: Worst Case Scenarios (10 figures) </h3> </summary>
+<summary> <h3> ⚠️ Annex B: Worst Case Scenarios </h3> </summary>
 
 **Content**: Mission performance under extreme conditions, worst-case disturbance analysis, robustness verification
 
