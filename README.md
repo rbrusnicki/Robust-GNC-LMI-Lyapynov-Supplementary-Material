@@ -366,6 +366,22 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <br><br>
 
 <p align="center">
+<img src="Chapter-03-Mathematical-Modeling/PID GUI equations.PNG" alt="PID GUI Equations" title="PID guidance controller equations" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>PID guidance controller equations</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="M gamma variation" title="Variation of M_gamma over time" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Variation of M<sub>γ</sub> over time</strong></p>
+
+<br><br>
+
+<p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Gui_PD_gains.png" alt="Guidance PD Gains" title="Guidance PD gains over time" style="margin: 0 auto; max-width: 400px">
 </p>
 
@@ -377,14 +393,6 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.4 Proposed guidance controller via LMI synthesis </h5> </summary>
-
-<p align="center">
-<img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="M gamma variation" title="Variation of M_gamma over time" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Variation of M<sub>γ</sub> over time</strong></p>
-
-<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/gui_robus_gains.png" alt="Robust Guidance Gains" title="Guidance gains obtained for the elevation" style="margin: 0 auto; max-width: 400px">
