@@ -121,7 +121,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Control loop block diagram</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Table 3dot1 - Control loops and respective cutoff frequencies.PNG" alt="Control Loops Cutoff Frequencies" title="Control loops and respective cutoff frequencies" style="margin: 0 auto; max-width: 600px">
@@ -129,7 +129,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Control loops and respective cutoff frequencies</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/BlockDiagram.PNG" alt="Control Block Diagram" title="Attitude control with focus on controller schematic" style="margin: 0 auto; max-width: 400px">
@@ -137,7 +137,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Attitude control with focus on controller schematic</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Phases.png" alt="Flight Phases" title="Different control phases during boosted phase" style="margin: 0 auto; max-width: 400px">
@@ -145,7 +145,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Different control phases during the boosted phase of VS-50 from Alcântara</strong></p>
 
-<br>
+<br><br>
 
 <details>
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;3.1 Vehicle and its subsystems </h4> </summary>
@@ -159,7 +159,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>DMARS transfer function</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/dmarsBode.png" alt="DMARS Frequency Response" title="Bode diagram of INS system DMARS" style="margin: 0 auto; max-width: 400px">
@@ -167,7 +167,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Bode diagram of INS system (DMARS)</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/DMARS_NRS.png" alt="DMARS Reference System" title="DMARS reference system" style="margin: 0 auto; max-width: 400px">
@@ -175,7 +175,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>DMARS reference system</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS with axes-label" style="margin: 0 auto; max-width: 400px">
@@ -183,7 +183,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>DMARS with axes-label</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -196,7 +196,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>TVA transfer function</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/TVABode.png" alt="TVA Frequency Response" title="Bode diagram of TVA plant" style="margin: 0 auto; max-width: 400px">
@@ -204,7 +204,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Bode diagram of TVA plant</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -217,7 +217,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Rocket's dynamic schematics</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/ATTBode.png" alt="Attitude Bode" title="Bode diagram of simplest version of the rocket's plant" style="margin: 0 auto; max-width: 400px">
@@ -225,7 +225,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Bode diagram of simplest version of the rocket's plant</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -245,7 +245,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Low pass filter transfer function</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/LPFBode.png" alt="LPF Bode" title="Bode diagram of the 2nd order low pass filter" style="margin: 0 auto; max-width: 400px">
@@ -253,7 +253,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Bode diagram of the 2nd order low pass filter</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -271,7 +271,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Attitude open loop bode diagrams</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/pidGains.png" alt="PID Gains" title="How the gains of the PID controller changes during the boosted phase" style="margin: 0 auto; max-width: 400px">
@@ -279,7 +279,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>How the gains of the PID controller changes during the boosted phase of VS-50</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/pid_ctrl.png" alt="PID Control" title="Block diagram for the output-feedback PID control" style="margin: 0 auto; max-width: 400px">
@@ -287,7 +287,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Block diagram for the output-feedback PID control</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -300,7 +300,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Estimation of M<sub>α</sub> versus M<sub>β</sub> over time</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Ma_versus_Mb_with_variations.png" alt="Ma vs Mb with variations" title="Polytope that includes all M_alpha and M_beta values with variations" style="margin: 0 auto; max-width: 400px">
@@ -308,7 +308,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Polytope that includes all M<sub>α</sub> and M<sub>β</sub> values, even with ±20% variation</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/robust_IPD_gains.png" alt="Robust Controller Gains" title="Scheduled PID gains obtained for the robust attitude controller" style="margin: 0 auto; max-width: 400px">
@@ -316,7 +316,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Scheduled PID gains obtained for the robust attitude controller</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -329,7 +329,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Overview of guidance control loop</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/GuidanceBode.PNG" alt="Guidance Bode" title="Bode diagram for open loop guidance control" style="margin: 0 auto; max-width: 400px">
@@ -337,7 +337,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Bode diagram for open loop guidance control - normalized version (M<sub>γ</sub>=1)</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Gui_PD_gains.png" alt="Guidance PD Gains" title="Guidance PD gains over time" style="margin: 0 auto; max-width: 400px">
@@ -345,7 +345,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Guidance PD gains over time</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -358,7 +358,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Variation of M<sub>γ</sub> over time</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/gui_robus_gains.png" alt="Robust Guidance Gains" title="Guidance gains obtained for the elevation" style="margin: 0 auto; max-width: 400px">
@@ -366,7 +366,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Guidance gains obtained for the elevation</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -381,7 +381,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Hardware in the loop test overview</strong></p>
 
-<br>
+<br><br>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.1 Rocket Plant hardware </h5> </summary>
@@ -425,7 +425,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Data flow of PXI computer</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Simulation settings in the front panel user interface" style="margin: 0 auto; max-width: 400px">
@@ -433,7 +433,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Simulation settings in the front panel user interface</strong></p>
 
-<br>
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/SerialPanel.png" alt="Serial Panel" title="Serial communication information in the front panel user interface" style="margin: 0 auto; max-width: 400px">
@@ -441,7 +441,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <p align="center"><strong>Serial communication information in the front panel user interface</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
