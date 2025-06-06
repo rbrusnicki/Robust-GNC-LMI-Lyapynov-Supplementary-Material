@@ -507,10 +507,10 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <summary> <h3> 📊 Results and Analysis </h3> </summary>
 
 <details>
-<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;4.1 Results of MATLAB Simulation </h4> </summary>
+<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;4.1 Results of MATLAB Simulation - Open Loop Bode Plots </h4> </summary>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 Open Loop Bode Plot of Conventional Attitude Controller </h5> </summary>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 Conventional Attitude Controller </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/Cu_ATT_OL_1_21.png" alt="Current ATT OL 1-21" title="Current attitude open loop 1-21 seconds" style="margin: 0 auto; max-width: 400px">
@@ -555,7 +555,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 Open Loop Bode Plot of Conventional Guidance Controller </h5> </summary>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 Conventional Guidance Controller </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/CURRENT_GUI_CL_5_15.png" alt="Current GUI CL 5-15" title="Current guidance closed loop 5-15 seconds" style="margin: 0 auto; max-width: 400px">
@@ -576,7 +576,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 Open Loop Bode Plot of Proposed Attitude Controller via LMI synthesis </h5> </summary>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 Proposed Attitude Controller via LMI synthesis </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_OL_1_21.png" alt="Robust ATT OL 1-21" title="Robust attitude open loop 1-21 seconds" style="margin: 0 auto; max-width: 400px">
@@ -621,7 +621,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 Open Loop Bode Plot of Proposed Guidance Controller via LMI synthesis </h5> </summary>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 Proposed Guidance Controller via LMI synthesis </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/ROBUST_GUI_OL_5_15.png" alt="Robust GUI OL 5-15" title="Robust guidance open loop 5-15 seconds" style="margin: 0 auto; max-width: 400px">
