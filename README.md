@@ -883,6 +883,36 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 |---|--------------|---------------|------------------|------------------|------|---|---------------------|---------------------|
 | 25 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 4 | | 1.0 | 1.0 |
 
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/50.png" alt="Realistic Attitude Footprint" title="Footprint of realist scenario of disturbances using attitude control" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Footprint of realist scenario of disturbances using attitude control</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/51.png" alt="Realistic Attitude Altitude" title="Altitude of realist scenario of disturbances using attitude control" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Altitude of realist scenario of disturbances using attitude control</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/52.png" alt="Realistic Attitude Behavior" title="Attitude of realist scenario of disturbances using attitude control" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Attitude of realist scenario of disturbances using attitude control</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/53.png" alt="Realistic Attitude Zoom" title="Zoom-in version of attitude behavior" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Zoom-in version of attitude behavior</strong></p>
+
 <br><br>
 
 • **Realistic Scenario of Disturbances - Guidance Controller**
