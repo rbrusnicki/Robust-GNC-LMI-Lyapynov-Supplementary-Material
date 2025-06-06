@@ -111,13 +111,13 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 </details>
 
 <details>
-<summary> <h3> ⚙️ Chapter 3: Mathematical Modeling and Control </h3> </summary>
+<summary> <h3> ⚙️ Attitude and Guidance Control </h3> </summary>
 
 **Content**: Complete mathematical model, control system design, LMI synthesis methodology, Hardware-in-the-Loop setup
 
 #### Figure 3.1: Control Loop Block Diagram
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/ControlLoop.png" alt="Control Loop Architecture" title="Control loop block diagram" style="margin: 0 auto; max-width: 500px">
+<img src="Chapter-03-Mathematical-Modeling/ControlLoop.PNG" alt="Control Loop Architecture" title="Control loop block diagram" style="margin: 0 auto; max-width: 500px">
 </p>
 
 **Caption:** Control loop block diagram.
@@ -138,7 +138,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 #### Figure 3.4: DMARS Bode Diagram
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/dmarsBode.PNG" alt="DMARS Frequency Response" title="Bode diagram of INS system DMARS" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/dmarsBode.png" alt="DMARS Frequency Response" title="Bode diagram of INS system DMARS" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Bode diagram of INS system (DMARS).
@@ -159,14 +159,14 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 #### Figure 3.7: National Instruments PXI
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/PXI.PNG" alt="PXI System" title="National Instruments PXI" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/PXI.png" alt="PXI System" title="National Instruments PXI" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** National Instruments PXI.
 
 #### Figure 3.8: Three Axis Motion Simulator
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/RedTable2.PNG" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/redtable_spec2.png" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Three axis motion simulator model AC3350.
