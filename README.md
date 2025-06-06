@@ -1062,9 +1062,45 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <details>
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.3 Closed Loop Bode Plot of Proposed Attitude Controller </h4> </summary>
 
-**Content**: Closed-loop frequency response analysis for proposed robust attitude control system across all flight phases
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_1_17.png" alt="Robust ATT CL 1-17s" title="Comparison of proposed attitude closed loop Bode Diagram - (1s - 17s)" style="margin: 0 auto; max-width: 600px">
+</p>
 
-*Note: The closed-loop Bode plot figures for the proposed robust attitude controller are referenced in the journal paper but the corresponding figure files are not included in this supplementary material repository.*
+<p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (1s - 17s)</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_18_26.png" alt="Robust ATT CL 18-26s" title="Comparison of proposed attitude closed loop Bode Diagram - (18s - 26s)" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (18s - 26s)</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_27_39.png" alt="Robust ATT CL 27-39s" title="Comparison of proposed attitude closed loop Bode Diagram - (27s - 39s)" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (27s - 39s)</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_40_70.png" alt="Robust ATT CL 40-70s" title="Comparison of proposed attitude closed loop Bode Diagram - (40s - 70s)" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (40s - 70s)</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_70_82.png" alt="Robust ATT CL 70-82s" title="Comparison of proposed attitude closed loop Bode Diagram - (70s - 82s)" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (70s - 82s)</strong></p>
+
+<br><br>
 
 </details>
 
