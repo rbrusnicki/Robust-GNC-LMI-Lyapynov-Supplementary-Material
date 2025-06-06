@@ -113,8 +113,6 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 <details>
 <summary> <h3> ⚙️ Attitude and Guidance Control </h3> </summary>
 
-**Content**: Complete mathematical model, control system design, LMI synthesis methodology, Hardware-in-the-Loop setup
-
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/ControlLoop.PNG" alt="Control Loop Architecture" title="Control loop block diagram" style="margin: 0 auto; max-width: 500px">
 </p>
@@ -434,12 +432,20 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.2 Motion simulation table </h5> </summary>
 
 <p align="center">
+<img src="Chapter-03-Mathematical-Modeling/3-axis%20motion%20simulator%20table%20model%20AC3350" alt="3-axis Motion Simulator" title="3-axis motion simulator table model AC3350" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>3-axis motion simulator table model AC3350</strong></p>
+
+<br><br>
+
+<p align="center">
 <img src="Chapter-03-Mathematical-Modeling/redtable_spec2.png" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
 </p>
 
 <p align="center"><strong>Three axis motion simulator model AC3350</strong></p>
 
-<br>
+<br><br>
 
 </details>
 
@@ -480,8 +486,6 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 </details>
-
-*Total: 31 high-resolution figures covering mathematical modeling, control design, and HIL validation*
 
 </details>
 
