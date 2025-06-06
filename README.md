@@ -845,6 +845,41 @@ In summary, the successful results achieved are as follows:
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5 Performance comparison </h5> </summary>
 
+The cases listed below were the chosen ones from the attitude and guidance HIL test tables to present here as a brief demonstration of the controller's performance. In the next section, both the position and attitude are presented for each case for the entire boosted phase of the flight.
+
+• **Nominal Flight with no Disturbances - Attitude Controller**
+
+| # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind Vel. [m/s] | Wind Azi. [°] | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
+|---|--------------|---------------|------------------|------------------|------------------|----------------|---------------------|---------------------|
+| 1 | Attitude | 0.00 | 0.00 | 0.0 | 0 | 0 | 1.0 | 1.0 |
+
+<br><br>
+
+• **Realistic Scenario of Disturbances - Attitude Controller**
+
+| # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind | | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
+|---|--------------|---------------|------------------|------------------|------|---|---------------------|---------------------|
+| 25 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 4 | | 1.0 | 1.0 |
+
+<br><br>
+
+• **Realistic Scenario of Disturbances - Guidance Controller**
+
+| # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind | | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
+|---|--------------|---------------|------------------|------------------|------|---|---------------------|---------------------|
+| 41 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 4 | | 1.2 | 1.0 |
+
+<br><br>
+
+• **Realistic Scenario of Disturbances - Attitude Controller X Guidance Controller**
+
+| # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind | | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
+|---|--------------|---------------|------------------|------------------|------|---|---------------------|---------------------|
+| 25 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 4 | | 1.0 | 1.0 |
+| 41 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 4 | | 1.2 | 1.0 |
+
+<br><br>
+
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/61.png" alt="Performance Comparison" title="Controller performance comparison" style="margin: 0 auto; max-width: 600px">
 </p>
