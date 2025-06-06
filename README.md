@@ -1,4 +1,4 @@
-# VS-50 Supplementary Material Repository
+# Supplementary Material Repository
 
 ## Robust Attitude and Guidance Control for a Launch Vehicle System: A Lyapunov-LMI Framework with HIL Validation
 
@@ -39,7 +39,7 @@ VS50-Supplementary-Material/
 ## 📖 Chapter Contents
 
 <details>
-<summary> <h3> 📚 Chapter 1: Introduction </h3> </summary>
+<summary> <h3> 📚 Introduction </h3> </summary>
 
 **Content**: Research motivation, problem formulation, control objectives, VS-50 launch vehicle system overview
 
@@ -647,7 +647,7 @@ If you use this material in your research, please cite:
   journal={International Journal of Aeronautical and Space Sciences},
   year={2025},
   status={Under Review},
-  note={Supplementary material available at: https://github.com/YOUR_USERNAME/VS50-Supplementary-Material}
+  note={Supplementary material available at: https://github.com/roberto-brusnicki/VS50-Supplementary-Material}
 }
 ```
 
