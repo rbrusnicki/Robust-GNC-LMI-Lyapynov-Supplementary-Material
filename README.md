@@ -43,12 +43,14 @@ VS50-Supplementary-Material/
 
 **Content**: Research motivation, problem formulation, control objectives, VS-50 launch vehicle system overview
 
-#### Figure 1.1: VS-50 Launch Vehicle System
+#### Figure 1.1: VS-50 Launch Vehicle
 <p align="center">
-<img src="Chapter-01-Introduction/VS-50.png" alt="VS-50 Launch Vehicle" title="VS-50 suborbital launch vehicle configuration" style="margin: 0 auto; max-width: 600px">
+<img src="Chapter-01-Introduction/VS-50.png" alt="VS-50 Launch Vehicle" title="VS-50 launch vehicle" style="margin: 0 auto; max-width: 600px">
 </p>
 
-Complete overview of the VS-50 suborbital launch vehicle showing the overall configuration, dimensions, and key components. This Brazilian-German cooperative vehicle serves as the test platform for advanced robust control methodologies.
+**Caption:** VS-50 launch vehicle.
+
+This Brazilian-German cooperative suborbital launch vehicle serves as the test platform for advanced robust control methodologies presented in this research.
 
 </details>
 
@@ -57,26 +59,54 @@ Complete overview of the VS-50 suborbital launch vehicle showing the overall con
 
 **Content**: State-of-the-art review in launch vehicle control, reference coordinate systems, fundamental mathematical concepts
 
-#### Navigation Reference Systems
+#### Figure 2.1: IAE Flight Dynamics Reference Systems
 <p align="center">
-<img src="Chapter-02-Literature-Review/IAE_NRS.png" alt="IAE Navigation Reference System" title="IAE coordinate system definitions" style="margin: 0 auto; max-width: 400px">
-<img src="Chapter-02-Literature-Review/DLR_NRS.png" alt="DLR Navigation Reference System" title="DLR coordinate system definitions" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-02-Literature-Review/IAE_NRS.png" alt="IAE Navigation Reference System" title="IAE flight dynamics reference systems" style="margin: 0 auto; max-width: 400px">
 </p>
 
-#### Mathematical Foundations
+**Caption:** IAE flight dynamics reference systems.
+
+#### Figure 2.2: DLR Body and Navigation Reference Systems
 <p align="center">
-<img src="Chapter-02-Literature-Review/ThrustForce.png" alt="Thrust Force Representation" title="Thrust vector components and application" style="margin: 0 auto; max-width: 300px">
-<img src="Chapter-02-Literature-Review/Ellipsoid.png" alt="Earth Ellipsoid Model" title="WGS84 ellipsoid and geodetic coordinates" style="margin: 0 auto; max-width: 300px">
+<img src="Chapter-02-Literature-Review/DLR_NRS.png" alt="DLR Navigation Reference System" title="DLR body reference system and navigation reference system" style="margin: 0 auto; max-width: 400px">
 </p>
 
+**Caption:** DLR body reference system (BRS) and navigation reference system (NRS) at launchpad.
+
+#### Figure 2.3: Thrust Force Vector
 <p align="center">
-<img src="Chapter-02-Literature-Review/vectors.png" alt="Vector Definitions" title="Fundamental vector relationships" style="margin: 0 auto; max-width: 300px">
-<img src="Chapter-02-Literature-Review/EulerAngles.png" alt="Euler Angles" title="Attitude representation and rotation sequences" style="margin: 0 auto; max-width: 300px">
+<img src="Chapter-02-Literature-Review/ThrustForce.png" alt="Thrust Force Representation" title="Thrust force vector with respect to body reference system" style="margin: 0 auto; max-width: 300px">
 </p>
 
+**Caption:** Thrust force vector with respect to the body reference system.
+
+#### Figure 2.4: WGS-84 Ellipsoid Reference
 <p align="center">
-<img src="Chapter-02-Literature-Review/AoA.png" alt="Angle of Attack Definition" title="Aerodynamic angle definitions" style="margin: 0 auto; max-width: 300px">
+<img src="Chapter-02-Literature-Review/Ellipsoid.png" alt="Earth Ellipsoid Model" title="Ellipsoid reference used for WGS-84" style="margin: 0 auto; max-width: 300px">
 </p>
+
+**Caption:** Ellipsoid reference used for WGS-84.
+
+#### Figure 2.5: Payload and Speed Vectors in NRS
+<p align="center">
+<img src="Chapter-02-Literature-Review/vectors.png" alt="Vector Definitions" title="Payload vector and speed vector represented in NRS" style="margin: 0 auto; max-width: 300px">
+</p>
+
+**Caption:** The payload vector $\vec{r}$ and the speed vector $\vec{v}$ represented in the NRS.
+
+#### Figure 2.6: Euler Angles of Rotations
+<p align="center">
+<img src="Chapter-02-Literature-Review/EulerAngles.png" alt="Euler Angles" title="Euler angles of rotations for attitude description" style="margin: 0 auto; max-width: 300px">
+</p>
+
+**Caption:** Euler angles of rotations used to describe rocket's attitude and the velocity vector attitude.
+
+#### Figure 2.7: Aerodynamic Forces Directions
+<p align="center">
+<img src="Chapter-02-Literature-Review/AoA.png" alt="Angle of Attack Definition" title="Aerodynamic forces directions" style="margin: 0 auto; max-width: 300px">
+</p>
+
+**Caption:** Aerodynamic forces directions due to the given payload vector $\vec{r}$ and speed vector $\vec{v}$.
 
 </details>
 
@@ -85,37 +115,82 @@ Complete overview of the VS-50 suborbital launch vehicle showing the overall con
 
 **Content**: Complete mathematical model, control system design, LMI synthesis methodology, Hardware-in-the-Loop setup
 
-#### Control System Architecture
+#### Figure 3.1: Control Loop Block Diagram
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/ControlLoop.png" alt="Control Loop Architecture" title="Overall control system architecture" style="margin: 0 auto; max-width: 500px">
+<img src="Chapter-03-Mathematical-Modeling/ControlLoop.png" alt="Control Loop Architecture" title="Control loop block diagram" style="margin: 0 auto; max-width: 500px">
 </p>
 
+**Caption:** Control loop block diagram.
+
+#### Figure 3.2: Attitude Control Schematic
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/BlockDiagram.PNG" alt="Control Block Diagram" title="Detailed control system block diagram" style="margin: 0 auto; max-width: 400px">
-<img src="Chapter-03-Mathematical-Modeling/Phases.PNG" alt="Flight Phases" title="Flight phases and control modes" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/BlockDiagram.PNG" alt="Control Block Diagram" title="Attitude control with focus on controller schematic" style="margin: 0 auto; max-width: 400px">
 </p>
 
-#### Navigation and Sensing Systems
+**Caption:** Attitude control with focus on controller schematic.
+
+#### Figure 3.3: Flight Phases During Boosted Phase
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/dmarsBode.PNG" alt="DMARS Frequency Response" title="DMARS navigation system Bode plots" style="margin: 0 auto; max-width: 400px">
-<img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS system components" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/Phases.PNG" alt="Flight Phases" title="Different control phases during boosted phase" style="margin: 0 auto; max-width: 400px">
 </p>
 
-#### Hardware-in-the-Loop Validation Setup
+**Caption:** Different control phases during the boosted phase of VS-50 from Alcântara.
+
+#### Figure 3.4: DMARS Bode Diagram
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/HIL overview.PNG" alt="HIL System Overview" title="Complete HIL validation setup" style="margin: 0 auto; max-width: 600px">
+<img src="Chapter-03-Mathematical-Modeling/dmarsBode.PNG" alt="DMARS Frequency Response" title="Bode diagram of INS system DMARS" style="margin: 0 auto; max-width: 400px">
 </p>
 
+**Caption:** Bode diagram of INS system (DMARS).
+
+#### Figure 3.5: DMARS with Axes Label
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/RedTable2.PNG" alt="Red Table HIL Facility" title="HIL test facility configuration" style="margin: 0 auto; max-width: 400px">
-<img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Real-time HIL control interface" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS with axes-label" style="margin: 0 auto; max-width: 400px">
 </p>
 
-#### Robust Control Design
+**Caption:** DMARS with axes-label.
+
+#### Figure 3.6: Hardware-in-the-Loop Test Overview
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/robust_IPD_gains.png" alt="Robust Controller Gains" title="LMI-based robust controller synthesis" style="margin: 0 auto; max-width: 400px">
-<img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="Robustness Analysis" title="Robustness margin analysis" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/HIL overview.PNG" alt="HIL System Overview" title="Hardware in the loop test overview" style="margin: 0 auto; max-width: 600px">
 </p>
+
+**Caption:** Hardware in the loop test overview.
+
+#### Figure 3.7: National Instruments PXI
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/PXI.PNG" alt="PXI System" title="National Instruments PXI" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** National Instruments PXI.
+
+#### Figure 3.8: Three Axis Motion Simulator
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/RedTable2.PNG" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Three axis motion simulator model AC3350.
+
+#### Figure 3.9: HIL Front Panel Interface
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Simulation settings in the front panel user interface" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Simulation settings in the front panel user interface.
+
+#### Figure 3.10: Robust Attitude Controller Gains
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/robust_IPD_gains.png" alt="Robust Controller Gains" title="Scheduled PID gains obtained for the robust attitude controller" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Scheduled PID gains obtained for the robust attitude controller.
+
+#### Figure 3.11: Variation of M_γ Over Time
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="Robustness Analysis" title="Variation of M_gamma over time" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Variation of $M_{\gamma}$ over time.
 
 *Total: 28 high-resolution figures covering mathematical modeling, control design, and HIL validation*
 
