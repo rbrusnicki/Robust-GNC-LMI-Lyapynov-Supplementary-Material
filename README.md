@@ -342,6 +342,14 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.3 Conventional guidance controller </h5> </summary>
 
 <p align="center">
+<img src="Chapter-03-Mathematical-Modeling/ATT_TF.PNG" alt="Attitude Transfer Function" title="Attitude transfer function for guidance controller" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Attitude transfer function for guidance controller</strong></p>
+
+<br><br>
+
+<p align="center">
 <img src="Chapter-03-Mathematical-Modeling/GuidanceBlocks.PNG" alt="Guidance Blocks" title="Overview of guidance control loop" style="margin: 0 auto; max-width: 400px">
 </p>
 
