@@ -853,6 +853,28 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 |---|--------------|---------------|------------------|------------------|------------------|----------------|---------------------|---------------------|
 | 1 | Attitude | 0.00 | 0.00 | 0.0 | 0 | 0 | 1.0 | 1.0 |
 
+<p align="center">
+<img src="Cap4/47.png" alt="Nominal Flight Footprint" title="Footprint of nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Footprint of nominal flight with no disturbances using attitude</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Cap4/48.png" alt="Nominal Flight Altitude" title="Altitude of nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Altitude of nominal flight with no disturbances using attitude</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Cap4/49.png" alt="DMARS Attitude Nominal" title="DMARS attitude during nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>DMARS attitude during nominal flight with no disturbances using attitude</strong></p>
+
 <br><br>
 
 • **Realistic Scenario of Disturbances - Attitude Controller**
@@ -878,31 +900,6 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 | 25 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 4 | | 1.0 | 1.0 |
 | 41 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 4 | | 1.2 | 1.0 |
 
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/61.png" alt="Performance Comparison" title="Controller performance comparison" style="margin: 0 auto; max-width: 600px">
-</p>
-
-<p align="center"><strong>Controller performance comparison</strong></p>
-
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/66.png" alt="Comparison Analysis" title="Detailed performance comparison analysis" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Detailed performance comparison analysis</strong></p>
-
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/67.png" alt="Final Comparison" title="Final performance comparison results" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Final performance comparison results</strong></p>
-
-<br><br>
 
 </details>
 
