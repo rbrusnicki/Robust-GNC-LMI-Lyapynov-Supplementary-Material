@@ -220,10 +220,20 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 <br><br>
 
 <p align="center">
+<img src="Chapter-03-Mathematical-Modeling/rocket_TF.PNG" alt="Rocket Transfer Function" title="Rocket attitude transfer function" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Rocket attitude transfer function</strong></p>
+
+<br><br>
+
+<p align="center">
 <img src="Chapter-03-Mathematical-Modeling/ATTBode.png" alt="Attitude Bode" title="Bode diagram of simplest version of the rocket's plant" style="margin: 0 auto; max-width: 400px">
 </p>
 
 <p align="center"><strong>Bode diagram of simplest version of the rocket's plant</strong></p>
+
+Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</sub>, I<sub>y</sub>, C<sub>damp</sub>) are changing over time, it is presented here the simplest version of the attitude transfer function normalized (M<sub>α</sub>=0, M<sub>β</sub> = 1) - which turns it to a simple double integrator.
 
 <br><br>
 
@@ -264,6 +274,14 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Conventional attitude controller </h5> </summary>
+
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/PID equations.PNG" alt="PID Equations" title="PID controller equations" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>PID controller equations</strong></p>
+
+<br><br>
 
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/OL_ATT_Bode.png" alt="Attitude Open Loop Bode" title="Attitude open loop bode diagrams" style="margin: 0 auto; max-width: 400px">
