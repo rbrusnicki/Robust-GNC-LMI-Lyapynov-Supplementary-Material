@@ -1,5 +1,9 @@
 # VS-50 Supplementary Material Repository
 
+<p align="center">
+<img src="Chapter-01-Introduction/VS-50.png" alt="VS-50 Launch Vehicle" title="VS-50 suborbital launch vehicle" style="margin: 0 auto; max-width: 400px">
+</p>
+
 ## Robust Attitude and Guidance Control for a Launch Vehicle System: A Lyapunov-LMI Framework with HIL Validation
 
 This repository contains supplementary material for the Master's thesis:
@@ -38,31 +42,139 @@ VS50-Supplementary-Material/
 
 ## 📖 Chapter Contents
 
-### [Chapter 1: Introduction](Chapter-01-Introduction/)
-- **1 Figure**: VS-50 launch vehicle overview
-- **Content**: Project background, vehicle specifications, research objectives
+<details>
+<summary> <h3> 📚 Chapter 1: Introduction (1 figure) </h3> </summary>
 
-### [Chapter 2: Literature Review](Chapter-02-Literature-Review/) 
-- **7 Figures**: Navigation systems, coordinate frames, mathematical foundations
-- **Content**: State-of-the-art review in launch vehicle control, reference coordinate systems, fundamental concepts
+**Content**: Project background, vehicle specifications, research objectives, VS-50 launch vehicle overview
 
-### [Chapter 3: Mathematical Modeling and Control](Chapter-03-Mathematical-Modeling/)
-- **28 Figures**: System modeling, control architectures, design methodologies
-- **Content**: Complete mathematical model, control system design, LMI synthesis, HIL setup
+#### Figure 1.1: VS-50 Launch Vehicle
+<p align="center">
+<img src="Chapter-01-Introduction/VS-50.png" alt="VS-50 Launch Vehicle" title="VS-50 suborbital launch vehicle configuration" style="margin: 0 auto; max-width: 600px">
+</p>
 
-### [Chapter 4: Results and Analysis](Chapter-04-Results-and-Analysis/)
-- **27 Figures**: Frequency and time domain analysis, performance comparisons
-- **Content**: Comprehensive results comparing current vs. proposed controllers, robustness analysis
+Complete overview of the VS-50 suborbital launch vehicle showing the overall configuration, dimensions, and key components developed through Brazilian-German cooperation (IAE-DLR).
 
-### [Annex A: Additional Bode Plots](Annex-A-Bode-Plots/)
-- **15 Figures**: Detailed frequency response analysis
-- **Content**: Closed-loop Bode plots, controller comparisons across flight phases
+</details>
 
-### [Annex B: Worst Case Scenarios](Annex-B-Worst-Case-Scenarios/)
-- **10 Figures**: Mission performance under extreme conditions
-- **Content**: Worst-case disturbance analysis, controller performance comparison
+<details>
+<summary> <h3> 🔍 Chapter 2: Literature Review (7 figures) </h3> </summary>
 
-## 🛠️ Technical Highlights
+**Content**: State-of-the-art review in launch vehicle control, reference coordinate systems, fundamental mathematical concepts
+
+#### Navigation Reference Systems
+<p align="center">
+<img src="Chapter-02-Literature-Review/IAE_NRS.png" alt="IAE Navigation Reference System" title="IAE coordinate system definitions" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-02-Literature-Review/DLR_NRS.png" alt="DLR Navigation Reference System" title="DLR coordinate system definitions" style="margin: 0 auto; max-width: 400px">
+</p>
+
+#### Mathematical Foundations
+<p align="center">
+<img src="Chapter-02-Literature-Review/ThrustForce.png" alt="Thrust Force Representation" title="Thrust vector components and application" style="margin: 0 auto; max-width: 300px">
+<img src="Chapter-02-Literature-Review/Ellipsoid.png" alt="Earth Ellipsoid Model" title="WGS84 ellipsoid and geodetic coordinates" style="margin: 0 auto; max-width: 300px">
+</p>
+
+<p align="center">
+<img src="Chapter-02-Literature-Review/vectors.png" alt="Vector Definitions" title="Fundamental vector relationships" style="margin: 0 auto; max-width: 300px">
+<img src="Chapter-02-Literature-Review/EulerAngles.png" alt="Euler Angles" title="Attitude representation and rotation sequences" style="margin: 0 auto; max-width: 300px">
+</p>
+
+<p align="center">
+<img src="Chapter-02-Literature-Review/AoA.png" alt="Angle of Attack Definition" title="Aerodynamic angle definitions" style="margin: 0 auto; max-width: 300px">
+</p>
+
+</details>
+
+<details>
+<summary> <h3> ⚙️ Chapter 3: Mathematical Modeling and Control (28 figures) </h3> </summary>
+
+**Content**: Complete mathematical model, control system design, LMI synthesis methodology, Hardware-in-the-Loop setup
+
+#### Control System Architecture
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/ControlLoop.png" alt="Control Loop Architecture" title="Overall control system architecture" style="margin: 0 auto; max-width: 500px">
+</p>
+
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/BlockDiagram.PNG" alt="Control Block Diagram" title="Detailed control system block diagram" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/Phases.PNG" alt="Flight Phases" title="Flight phases and control modes" style="margin: 0 auto; max-width: 400px">
+</p>
+
+#### Navigation and Sensing Systems
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/dmarsBode.PNG" alt="DMARS Frequency Response" title="DMARS navigation system Bode plots" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS system components" style="margin: 0 auto; max-width: 400px">
+</p>
+
+#### Hardware-in-the-Loop Validation Setup
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/HIL overview.PNG" alt="HIL System Overview" title="Complete HIL validation setup" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/RedTable2.PNG" alt="Red Table HIL Facility" title="HIL test facility configuration" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Real-time HIL control interface" style="margin: 0 auto; max-width: 400px">
+</p>
+
+#### Robust Control Design
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/robust_IPD_gains.png" alt="Robust Controller Gains" title="LMI-based robust controller synthesis" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="Robustness Analysis" title="Robustness margin analysis" style="margin: 0 auto; max-width: 400px">
+</p>
+
+*Total: 28 high-resolution figures covering mathematical modeling, control design, and HIL validation*
+
+</details>
+
+<details>
+<summary> <h3> 📊 Chapter 4: Results and Analysis (27 figures) </h3> </summary>
+
+**Content**: Comprehensive results comparing current vs. proposed controllers, frequency and time domain analysis, robustness verification
+
+#### Performance Comparison Results
+*Detailed analysis comparing classical PID control with proposed LMI-based robust controllers across various flight conditions and parameter uncertainties*
+
+#### Frequency Domain Analysis  
+*Bode plots, stability margins, and robustness analysis for attitude and guidance control systems*
+
+#### Time Domain Validation
+*Step responses, tracking performance, and disturbance rejection capabilities under realistic flight scenarios*
+
+*Total: 27 high-resolution figures covering comprehensive performance analysis*
+
+</details>
+
+<details>
+<summary> <h3> 📈 Annex A: Additional Bode Plots (15 figures) </h3> </summary>
+
+**Content**: Detailed frequency response analysis, closed-loop Bode plots, controller comparisons across all flight phases
+
+#### Closed-Loop Frequency Analysis
+*Comprehensive Bode plot analysis for various controller configurations and flight conditions*
+
+#### Controller Performance Comparison
+*Detailed frequency domain comparison between current and robust control approaches*
+
+*Total: 15 high-resolution Bode plots for comprehensive frequency domain analysis*
+
+</details>
+
+<details>
+<summary> <h3> ⚠️ Annex B: Worst Case Scenarios (10 figures) </h3> </summary>
+
+**Content**: Mission performance under extreme conditions, worst-case disturbance analysis, robustness verification
+
+#### Extreme Condition Testing
+*Controller performance under maximum parameter uncertainties, worst-case wind disturbances, and extreme flight conditions*
+
+#### Robustness Verification
+*Validation of controller robustness under challenging scenarios that test the limits of the control system*
+
+*Total: 10 high-resolution figures demonstrating controller performance under worst-case conditions*
+
+</details>
+
+<details>
+<summary> <h2> 🛠️ Technical Highlights </h2> </summary>
 
 ### Control Methodologies
 - **LMI-based Robust Control**: Lyapunov stability guarantees
@@ -80,7 +192,10 @@ VS50-Supplementary-Material/
 - **TVA (Thrust Vector Actuator)**: Primary attitude control actuator
 - **Real-Time Implementation**: LabVIEW-based control system
 
-## 📊 Key Results
+</details>
+
+<details>
+<summary> <h2> 📊 Key Results </h2> </summary>
 
 ### Performance Improvements
 - **Enhanced Robustness**: Superior performance under parameter uncertainties
@@ -93,6 +208,8 @@ VS50-Supplementary-Material/
 2. **Integrated HIL Validation**: Real hardware testing methodology  
 3. **Comprehensive Analysis**: Complete frequency and time domain evaluation
 4. **Practical Implementation**: Ready-to-deploy control algorithms
+
+</details>
 
 ## 🔗 Related Publications
 
@@ -107,7 +224,8 @@ VS50-Supplementary-Material/
 
 **Journal:** Aerospace Science and Technology (Under Review)
 
-## 📚 How to Use This Repository
+<details>
+<summary> <h2> 📚 How to Use This Repository </h2> </summary>
 
 ### For Researchers
 1. **Reference Figures**: All figures are numbered according to the thesis PDF
@@ -126,6 +244,8 @@ VS50-Supplementary-Material/
 2. **Validation Methods**: HIL testing protocols and procedures
 3. **Performance Metrics**: Evaluation criteria and benchmarking approaches
 4. **Implementation Guidelines**: Practical deployment considerations
+
+</details>
 
 ## 🏛️ Institutional Acknowledgments
 
