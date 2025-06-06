@@ -989,7 +989,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.1 Closed Loop Bode Plot of Conventional Attitude Controller </h4> </summary>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/Cu_ATT_CL_1_9.png" alt="Current ATT CL 0-9s" title="Comparison of attitude closed loop Bode Diagram over time (0s - 9s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/Cu_ATT_CL_1_9.png" alt="Current ATT CL 0-9s" title="Comparison of attitude closed loop Bode Diagram over time (0s - 9s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of attitude closed loop Bode Diagram over time (0s - 9s)</strong></p>
@@ -997,7 +997,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/Cu_ATT_CL_10_21.png" alt="Current ATT CL 10-21s" title="Comparison of attitude closed loop Bode Diagram over time (10s - 21s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/Cu_ATT_CL_10_21.png" alt="Current ATT CL 10-21s" title="Comparison of attitude closed loop Bode Diagram over time (10s - 21s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of attitude closed loop Bode Diagram over time (10s - 21s)</strong></p>
@@ -1005,7 +1005,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/Cu_ATT_CL_22_31.png" alt="Current ATT CL 22-31s" title="Comparison of attitude closed loop Bode Diagram over time (22s - 31s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/Cu_ATT_CL_22_31.png" alt="Current ATT CL 22-31s" title="Comparison of attitude closed loop Bode Diagram over time (22s - 31s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of attitude closed loop Bode Diagram over time (22s - 31s)</strong></p>
@@ -1013,7 +1013,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/Cu_ATT_CL_32_38.png" alt="Current ATT CL 32-38s" title="Comparison of attitude closed loop Bode Diagram over time (32s - 38s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/Cu_ATT_CL_32_38.png" alt="Current ATT CL 32-38s" title="Comparison of attitude closed loop Bode Diagram over time (32s - 38s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of attitude closed loop Bode Diagram over time (32s - 38s)</strong></p>
@@ -1021,7 +1021,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/Cu_ATT_CL_39_72.png" alt="Current ATT CL 39-72s" title="Comparison of attitude closed loop Bode Diagram over time (39s - 72s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/Cu_ATT_CL_39_72.png" alt="Current ATT CL 39-72s" title="Comparison of attitude closed loop Bode Diagram over time (39s - 72s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of attitude closed loop Bode Diagram over time (39s - 72s)</strong></p>
@@ -1029,7 +1029,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/Cu_ATT_CL_73_82.png" alt="Current ATT CL 73-82s" title="Comparison of attitude closed loop Bode Diagram over time (73s - 82s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/Cu_ATT_CL_73_82.png" alt="Current ATT CL 73-82s" title="Comparison of attitude closed loop Bode Diagram over time (73s - 82s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of attitude closed loop Bode Diagram over time (73s - 82s)</strong></p>
@@ -1042,7 +1042,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.2 Closed Loop Bode Plot of Conventional Guidance Controller </h4> </summary>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/CURRENT_GUI_OL_5_15.png" alt="Current GUI CL 5-15s" title="Comparison of guidance closed loop Bode diagram over time (5s - 15s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/CURRENT_GUI_CL_5_15.png" alt="Current GUI CL 5-15s" title="Comparison of guidance closed loop Bode diagram over time (5s - 15s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of guidance closed loop Bode diagram over time (5s - 15s)</strong></p>
@@ -1050,7 +1050,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/CURRENT_GUI_OL_45_75.png" alt="Current GUI CL 45-75s" title="Comparison of guidance closed loop Bode diagram over time (45s - 75s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/CURRENT_GUI_CL_45_75.png" alt="Current GUI CL 45-75s" title="Comparison of guidance closed loop Bode diagram over time (45s - 75s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of guidance closed loop Bode diagram over time (45s - 75s)</strong></p>
@@ -1063,7 +1063,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.3 Closed Loop Bode Plot of Proposed Attitude Controller </h4> </summary>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_1_17.png" alt="Robust ATT CL 1-17s" title="Comparison of proposed attitude closed loop Bode Diagram - (1s - 17s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/ROBUST_ATT_CL_1_17.png" alt="Robust ATT CL 1-17s" title="Comparison of proposed attitude closed loop Bode Diagram - (1s - 17s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (1s - 17s)</strong></p>
@@ -1071,7 +1071,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_18_26.png" alt="Robust ATT CL 18-26s" title="Comparison of proposed attitude closed loop Bode Diagram - (18s - 26s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/ROBUST_ATT_CL_18_26.png" alt="Robust ATT CL 18-26s" title="Comparison of proposed attitude closed loop Bode Diagram - (18s - 26s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (18s - 26s)</strong></p>
@@ -1079,7 +1079,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_27_39.png" alt="Robust ATT CL 27-39s" title="Comparison of proposed attitude closed loop Bode Diagram - (27s - 39s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/ROBUST_ATT_CL_27_39.png" alt="Robust ATT CL 27-39s" title="Comparison of proposed attitude closed loop Bode Diagram - (27s - 39s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (27s - 39s)</strong></p>
@@ -1087,7 +1087,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_40_70.png" alt="Robust ATT CL 40-70s" title="Comparison of proposed attitude closed loop Bode Diagram - (40s - 70s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/ROBUST_ATT_CL_40_70.png" alt="Robust ATT CL 40-70s" title="Comparison of proposed attitude closed loop Bode Diagram - (40s - 70s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (40s - 70s)</strong></p>
@@ -1095,7 +1095,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_CL_70_82.png" alt="Robust ATT CL 70-82s" title="Comparison of proposed attitude closed loop Bode Diagram - (70s - 82s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/ROBUST_ATT_CL_70_82.png" alt="Robust ATT CL 70-82s" title="Comparison of proposed attitude closed loop Bode Diagram - (70s - 82s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of proposed attitude closed loop Bode Diagram - (70s - 82s)</strong></p>
@@ -1108,7 +1108,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;5.4 Closed Loop Bode Plot of Proposed Guidance Controller </h4> </summary>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/ROBUST_GUI_CL_5_15.png" alt="Robust GUI CL 5-15s" title="Comparison of guidance closed loop Bode Diagram over time (5s - 15s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/ROBUST_GUI_CL_5_15.png" alt="Robust GUI CL 5-15s" title="Comparison of guidance closed loop Bode Diagram over time (5s - 15s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of guidance closed loop Bode Diagram over time (5s - 15s)</strong></p>
@@ -1116,7 +1116,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/ROBUST_GUI_CL_45_75.png" alt="Robust GUI CL 45-75s" title="Comparison of guidance closed loop Bode Diagram over time (45s - 75s)" style="margin: 0 auto; max-width: 600px">
+<img src="../Cap4/ROBUST_GUI_CL_45_75.png" alt="Robust GUI CL 45-75s" title="Comparison of guidance closed loop Bode Diagram over time (45s - 75s)" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Comparison of guidance closed loop Bode Diagram over time (45s - 75s)</strong></p>
