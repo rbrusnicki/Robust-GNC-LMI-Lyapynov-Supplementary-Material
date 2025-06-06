@@ -366,7 +366,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <br><br>
 
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/PID GUI equations.PNG" alt="PID GUI Equations" title="PID guidance controller equations" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/PID%20GUI%20equations.PNG" alt="PID GUI Equations" title="PID guidance controller equations" style="margin: 0 auto; max-width: 400px">
 </p>
 
 <p align="center"><strong>PID guidance controller equations</strong></p>
