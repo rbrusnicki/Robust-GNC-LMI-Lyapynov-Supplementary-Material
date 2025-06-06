@@ -136,6 +136,12 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 **Caption:** Different control phases during the boosted phase of VS-50 from Alcântara.
 
+<details>
+<summary> <h4> 3.1 Vehicle and its subsystems </h4> </summary>
+
+<details>
+<summary> <h5> 3.1.1 INS system </h5> </summary>
+
 #### Figure 3.4: DMARS Bode Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/dmarsBode.png" alt="DMARS Frequency Response" title="Bode diagram of INS system DMARS" style="margin: 0 auto; max-width: 400px">
@@ -157,47 +163,230 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 **Caption:** DMARS with axes-label.
 
-#### Figure 3.7: Hardware-in-the-Loop Test Overview
+</details>
+
+<details>
+<summary> <h5> 3.1.2 TVA system </h5> </summary>
+
+#### Figure 3.7: TVA Bode Diagram
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/HIL overview.PNG" alt="HIL System Overview" title="Hardware in the loop test overview" style="margin: 0 auto; max-width: 600px">
+<img src="Chapter-03-Mathematical-Modeling/TVABode.png" alt="TVA Frequency Response" title="Bode diagram of TVA plant" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Hardware in the loop test overview.
+**Caption:** Bode diagram of TVA plant.
 
-#### Figure 3.8: National Instruments PXI
+</details>
+
+<details>
+<summary> <h5> 3.1.3 Rocket system </h5> </summary>
+
+#### Figure 3.8: Rocket's Dynamic Schematics
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/PXI.png" alt="PXI System" title="National Instruments PXI" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/RocketDynamics.PNG" alt="Rocket Dynamics" title="Rocket's dynamic schematics" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** National Instruments PXI.
+**Caption:** Rocket's dynamic schematics.
 
-#### Figure 3.9: Three Axis Motion Simulator
+#### Figure 3.9: Attitude Bode Diagram
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/redtable_spec2.png" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/ATTBode.png" alt="Attitude Bode" title="Bode diagram of simplest version of the rocket's plant" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Three axis motion simulator model AC3350.
+**Caption:** Bode diagram of simplest version of the rocket's plant.
 
-#### Figure 3.10: HIL Front Panel Interface
+</details>
+
+<details>
+<summary> <h5> 3.1.4 Dead times </h5> </summary>
+
+*Dead time analysis and modeling - figures available in complete collection*
+
+</details>
+
+<details>
+<summary> <h5> 3.1.5 Low pass filter </h5> </summary>
+
+#### Figure 3.10: Low Pass Filter Bode Diagram
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Simulation settings in the front panel user interface" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/LPFBode.png" alt="LPF Bode" title="Bode diagram of the 2nd order low pass filter" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Simulation settings in the front panel user interface.
+**Caption:** Bode diagram of the 2nd order low pass filter.
 
-#### Figure 3.11: Robust Attitude Controller Gains
+</details>
+
+</details>
+
+<details>
+<summary> <h4> 3.2 Design of the gain-scheduled PID controllers </h4> </summary>
+
+<details>
+<summary> <h5> 3.2.1 Conventional attitude controller </h5> </summary>
+
+#### Figure 3.11: Attitude Open Loop Bode Diagrams
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/OL_ATT_Bode.png" alt="Attitude Open Loop Bode" title="Attitude open loop bode diagrams" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Attitude open loop bode diagrams.
+
+#### Figure 3.12: PID Controller Gains During Boosted Phase
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/pidGains.png" alt="PID Gains" title="How the gains of the PID controller changes during the boosted phase" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** How the gains of the PID controller changes during the boosted phase of VS-50.
+
+#### Figure 3.13: PID Control Block Diagram
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/pid_ctrl.png" alt="PID Control" title="Block diagram for the output-feedback PID control" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Block diagram for the output-feedback PID control.
+
+</details>
+
+<details>
+<summary> <h5> 3.2.2 Proposed attitude controller via LMI synthesis </h5> </summary>
+
+#### Figure 3.14: M_α versus M_β Analysis
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/Ma_versus_Mb.png" alt="Ma vs Mb" title="Estimation of M_alpha versus M_beta over time" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Estimation of $M_\alpha$ versus $M_\beta$ over time.
+
+#### Figure 3.15: M_α versus M_β with Variations
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/Ma_versus_Mb_with_variations.png" alt="Ma vs Mb with variations" title="Polytope that includes all M_alpha and M_beta values with variations" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Polytope that includes all $M_\alpha$ and $M_\beta$ values, even with ±20% variation.
+
+#### Figure 3.16: Robust Attitude Controller Gains
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/robust_IPD_gains.png" alt="Robust Controller Gains" title="Scheduled PID gains obtained for the robust attitude controller" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Scheduled PID gains obtained for the robust attitude controller.
 
-#### Figure 3.12: Variation of M_γ Over Time
+</details>
+
+<details>
+<summary> <h5> 3.2.3 Conventional guidance controller </h5> </summary>
+
+#### Figure 3.17: Guidance Control Loop Overview
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="Robustness Analysis" title="Variation of M_gamma over time" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/GuidanceBlocks.PNG" alt="Guidance Blocks" title="Overview of guidance control loop" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Overview of guidance control loop.
+
+#### Figure 3.18: Guidance Bode Diagram
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/GuidanceBode.PNG" alt="Guidance Bode" title="Bode diagram for open loop guidance control" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Bode diagram for open loop guidance control - normalized version ($M_\gamma$=1).
+
+#### Figure 3.19: Guidance PD Gains Over Time
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/Gui_PD_gains.png" alt="Guidance PD Gains" title="Guidance PD gains over time" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Guidance PD gains over time.
+
+</details>
+
+<details>
+<summary> <h5> 3.2.4 Proposed guidance controller via LMI synthesis </h5> </summary>
+
+#### Figure 3.20: Variation of M_γ Over Time
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="M gamma variation" title="Variation of M_gamma over time" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Variation of $M_{\gamma}$ over time.
+
+#### Figure 3.21: Robust Guidance Controller Gains
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/gui_robus_gains.png" alt="Robust Guidance Gains" title="Guidance gains obtained for the elevation" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Guidance gains obtained for the elevation.
+
+</details>
+
+</details>
+
+<details>
+<summary> <h4> 3.3 Hardware-in-the-loop simulations using LABVIEW </h4> </summary>
+
+#### Figure 3.22: Hardware-in-the-Loop Test Overview
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/HIL overview.PNG" alt="HIL System Overview" title="Hardware in the loop test overview" style="margin: 0 auto; max-width: 600px">
+</p>
+
+**Caption:** Hardware in the loop test overview.
+
+<details>
+<summary> <h5> 3.3.1 Rocket Plant hardware </h5> </summary>
+
+#### Figure 3.23: National Instruments PXI
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/PXI.png" alt="PXI System" title="National Instruments PXI" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** National Instruments PXI.
+
+</details>
+
+<details>
+<summary> <h5> 3.3.2 Motion simulation table </h5> </summary>
+
+#### Figure 3.24: Three Axis Motion Simulator
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/redtable_spec2.png" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Three axis motion simulator model AC3350.
+
+</details>
+
+<details>
+<summary> <h5> 3.3.3 Inertial Measurement Unit </h5> </summary>
+
+*DMARS IMU integration details - see section 3.1.1 for DMARS system figures*
+
+</details>
+
+<details>
+<summary> <h5> 3.3.4 Software description </h5> </summary>
+
+#### Figure 3.25: Data Flow of PXI Computer
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/dataFlow.PNG" alt="Data Flow" title="Data flow of PXI computer" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Data flow of PXI computer.
+
+#### Figure 3.26: HIL Front Panel Interface
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Simulation settings in the front panel user interface" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Simulation settings in the front panel user interface.
+
+#### Figure 3.27: Serial Communication Panel
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/SerialPanel.png" alt="Serial Panel" title="Serial communication information in the front panel user interface" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** Serial communication information in the front panel user interface.
+
+</details>
+
+</details>
 
 *Total: 28 high-resolution figures covering mathematical modeling, control design, and HIL validation*
 
