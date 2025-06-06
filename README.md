@@ -854,7 +854,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 | 1 | Attitude | 0.00 | 0.00 | 0.0 | 0 | 0 | 1.0 | 1.0 |
 
 <p align="center">
-<img src="Cap4/47.png" alt="Nominal Flight Footprint" title="Footprint of nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
+<img src="Chapter-04-Results-and-Analysis/47.png" alt="Nominal Flight Footprint" title="Footprint of nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Footprint of nominal flight with no disturbances using attitude</strong></p>
@@ -862,7 +862,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Cap4/48.png" alt="Nominal Flight Altitude" title="Altitude of nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
+<img src="Chapter-04-Results-and-Analysis/48.png" alt="Nominal Flight Altitude" title="Altitude of nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>Altitude of nominal flight with no disturbances using attitude</strong></p>
@@ -870,7 +870,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Cap4/49.png" alt="DMARS Attitude Nominal" title="DMARS attitude during nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
+<img src="Chapter-04-Results-and-Analysis/49.png" alt="DMARS Attitude Nominal" title="DMARS attitude during nominal flight with no disturbances using attitude" style="margin: 0 auto; max-width: 600px">
 </p>
 
 <p align="center"><strong>DMARS attitude during nominal flight with no disturbances using attitude</strong></p>
