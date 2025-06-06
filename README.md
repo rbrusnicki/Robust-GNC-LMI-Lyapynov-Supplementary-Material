@@ -167,22 +167,6 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 <br><br>
 
-<p align="center">
-<img src="Chapter-03-Mathematical-Modeling/DMARS_NRS.png" alt="DMARS Reference System" title="DMARS reference system" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>DMARS reference system</strong></p>
-
-<br><br>
-
-<p align="center">
-<img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS with axes-label" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>DMARS with axes-label</strong></p>
-
-<br><br>
-
 </details>
 
 <details>
@@ -447,12 +431,42 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 
 <br><br>
 
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/Dynamic%20performance%20and%20control%20accuracy%20of%20AC3350.PNG" alt="AC3350 Performance Table" title="Dynamic performance and control accuracy of AC3350" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Dynamic performance and control accuracy of AC3350</strong></p>
+
+<br><br>
+
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.3 Inertial Measurement Unit </h5> </summary>
 
-*DMARS IMU integration details - see section 3.1.1 for DMARS system figures*
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/DMARS_NRS.png" alt="DMARS Reference System" title="DMARS reference system" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>DMARS reference system</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS with axes-label" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>DMARS with axes-label</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/DMARS%20data%20format.PNG" alt="DMARS Data Format" title="DMARS data format" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>DMARS data format</strong></p>
+
+<br><br>
 
 </details>
 
