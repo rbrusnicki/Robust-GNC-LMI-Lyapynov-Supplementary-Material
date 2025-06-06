@@ -115,33 +115,29 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 **Content**: Complete mathematical model, control system design, LMI synthesis methodology, Hardware-in-the-Loop setup
 
-#### Figure 3.1: Control Loop Block Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/ControlLoop.PNG" alt="Control Loop Architecture" title="Control loop block diagram" style="margin: 0 auto; max-width: 500px">
 </p>
 
-**Caption:** Control loop block diagram.
+<p align="center"><strong>Control loop block diagram</strong></p>
 
-#### Table 3.1: Control Loops and Respective Cutoff Frequencies
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Table 3dot1 - Control loops and respective cutoff frequencies.PNG" alt="Control Loops Cutoff Frequencies" title="Control loops and respective cutoff frequencies" style="margin: 0 auto; max-width: 600px">
 </p>
 
-**Caption:** Control loops and respective cutoff frequencies.
+<p align="center"><strong>Control loops and respective cutoff frequencies</strong></p>
 
-#### Figure 3.2: Attitude Control Schematic
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/BlockDiagram.PNG" alt="Control Block Diagram" title="Attitude control with focus on controller schematic" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Attitude control with focus on controller schematic.
+<p align="center"><strong>Attitude control with focus on controller schematic</strong></p>
 
-#### Figure 3.3: Flight Phases During Boosted Phase
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Phases.png" alt="Flight Phases" title="Different control phases during boosted phase" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Different control phases during the boosted phase of VS-50 from Alcântara.
+<p align="center"><strong>Different control phases during the boosted phase of VS-50 from Alcântara</strong></p>
 
 <details>
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;3.1 Vehicle and its subsystems </h4> </summary>
@@ -149,71 +145,63 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.1 INS system </h5> </summary>
 
-#### Figure 3.4: DMARS Transfer Function
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/DMARS_TF.PNG" alt="DMARS Transfer Function" title="DMARS transfer function" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** DMARS transfer function.
+<p align="center"><strong>DMARS transfer function</strong></p>
 
-#### Figure 3.5: DMARS Bode Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/dmarsBode.png" alt="DMARS Frequency Response" title="Bode diagram of INS system DMARS" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Bode diagram of INS system (DMARS).
+<p align="center"><strong>Bode diagram of INS system (DMARS)</strong></p>
 
-#### Figure 3.6: DMARS Reference System
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/DMARS_NRS.png" alt="DMARS Reference System" title="DMARS reference system" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** DMARS reference system.
+<p align="center"><strong>DMARS reference system</strong></p>
 
-#### Figure 3.7: DMARS with Axes Label
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS with axes-label" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** DMARS with axes-label.
+<p align="center"><strong>DMARS with axes-label</strong></p>
 
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2 TVA system </h5> </summary>
 
-#### Figure 3.8: TVA Transfer Function
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/TVA_TF.PNG" alt="TVA Transfer Function" title="TVA transfer function" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** TVA transfer function.
+<p align="center"><strong>TVA transfer function</strong></p>
 
-#### Figure 3.9: TVA Bode Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/TVABode.png" alt="TVA Frequency Response" title="Bode diagram of TVA plant" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Bode diagram of TVA plant.
+<p align="center"><strong>Bode diagram of TVA plant</strong></p>
 
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.3 Rocket system </h5> </summary>
 
-#### Figure 3.10: Rocket's Dynamic Schematics
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/RocketDynamics.PNG" alt="Rocket Dynamics" title="Rocket's dynamic schematics" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Rocket's dynamic schematics.
+<p align="center"><strong>Rocket's dynamic schematics</strong></p>
 
-#### Figure 3.11: Attitude Bode Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/ATTBode.png" alt="Attitude Bode" title="Bode diagram of simplest version of the rocket's plant" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Bode diagram of simplest version of the rocket's plant.
+<p align="center"><strong>Bode diagram of simplest version of the rocket's plant</strong></p>
 
 </details>
 
@@ -227,19 +215,17 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.5 Low pass filter </h5> </summary>
 
-#### Figure 3.12: Low Pass Filter Transfer Function
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/LPF_TF.PNG" alt="LPF Transfer Function" title="Low pass filter transfer function" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Low pass filter transfer function.
+<p align="center"><strong>Low pass filter transfer function</strong></p>
 
-#### Figure 3.13: Low Pass Filter Bode Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/LPFBode.png" alt="LPF Bode" title="Bode diagram of the 2nd order low pass filter" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Bode diagram of the 2nd order low pass filter.
+<p align="center"><strong>Bode diagram of the 2nd order low pass filter</strong></p>
 
 </details>
 
@@ -251,97 +237,86 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Conventional attitude controller </h5> </summary>
 
-#### Figure 3.14: Attitude Open Loop Bode Diagrams
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/OL_ATT_Bode.png" alt="Attitude Open Loop Bode" title="Attitude open loop bode diagrams" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Attitude open loop bode diagrams.
+<p align="center"><strong>Attitude open loop bode diagrams</strong></p>
 
-#### Figure 3.15: PID Controller Gains During Boosted Phase
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/pidGains.png" alt="PID Gains" title="How the gains of the PID controller changes during the boosted phase" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** How the gains of the PID controller changes during the boosted phase of VS-50.
+<p align="center"><strong>How the gains of the PID controller changes during the boosted phase of VS-50</strong></p>
 
-#### Figure 3.16: PID Control Block Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/pid_ctrl.png" alt="PID Control" title="Block diagram for the output-feedback PID control" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Block diagram for the output-feedback PID control.
+<p align="center"><strong>Block diagram for the output-feedback PID control</strong></p>
 
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.2 Proposed attitude controller via LMI synthesis </h5> </summary>
 
-#### Figure 3.17: M_α versus M_β Analysis
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Ma_versus_Mb.png" alt="Ma vs Mb" title="Estimation of M_alpha versus M_beta over time" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Estimation of $M_\alpha$ versus $M_\beta$ over time.
+<p align="center"><strong>Estimation of M<sub>α</sub> versus M<sub>β</sub> over time</strong></p>
 
-#### Figure 3.18: M_α versus M_β with Variations
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Ma_versus_Mb_with_variations.png" alt="Ma vs Mb with variations" title="Polytope that includes all M_alpha and M_beta values with variations" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Polytope that includes all $M_\alpha$ and $M_\beta$ values, even with ±20% variation.
+<p align="center"><strong>Polytope that includes all M<sub>α</sub> and M<sub>β</sub> values, even with ±20% variation</strong></p>
 
-#### Figure 3.19: Robust Attitude Controller Gains
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/robust_IPD_gains.png" alt="Robust Controller Gains" title="Scheduled PID gains obtained for the robust attitude controller" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Scheduled PID gains obtained for the robust attitude controller.
+<p align="center"><strong>Scheduled PID gains obtained for the robust attitude controller</strong></p>
 
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.3 Conventional guidance controller </h5> </summary>
 
-#### Figure 3.20: Guidance Control Loop Overview
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/GuidanceBlocks.PNG" alt="Guidance Blocks" title="Overview of guidance control loop" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Overview of guidance control loop.
+<p align="center"><strong>Overview of guidance control loop</strong></p>
 
-#### Figure 3.21: Guidance Bode Diagram
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/GuidanceBode.PNG" alt="Guidance Bode" title="Bode diagram for open loop guidance control" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Bode diagram for open loop guidance control - normalized version ($M_\gamma$=1).
+<p align="center"><strong>Bode diagram for open loop guidance control - normalized version (M<sub>γ</sub>=1)</strong></p>
 
-#### Figure 3.22: Guidance PD Gains Over Time
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/Gui_PD_gains.png" alt="Guidance PD Gains" title="Guidance PD gains over time" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Guidance PD gains over time.
+<p align="center"><strong>Guidance PD gains over time</strong></p>
 
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.4 Proposed guidance controller via LMI synthesis </h5> </summary>
 
-#### Figure 3.23: Variation of M_γ Over Time
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="M gamma variation" title="Variation of M_gamma over time" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Variation of $M_{\gamma}$ over time.
+<p align="center"><strong>Variation of M<sub>γ</sub> over time</strong></p>
 
-#### Figure 3.24: Robust Guidance Controller Gains
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/gui_robus_gains.png" alt="Robust Guidance Gains" title="Guidance gains obtained for the elevation" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Guidance gains obtained for the elevation.
+<p align="center"><strong>Guidance gains obtained for the elevation</strong></p>
 
 </details>
 
@@ -350,34 +325,31 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 <details>
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;3.3 Hardware-in-the-loop simulations using LABVIEW </h4> </summary>
 
-#### Figure 3.25: Hardware-in-the-Loop Test Overview
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/HIL overview.PNG" alt="HIL System Overview" title="Hardware in the loop test overview" style="margin: 0 auto; max-width: 600px">
 </p>
 
-**Caption:** Hardware in the loop test overview.
+<p align="center"><strong>Hardware in the loop test overview</strong></p>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.1 Rocket Plant hardware </h5> </summary>
 
-#### Figure 3.26: National Instruments PXI
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/PXI.png" alt="PXI System" title="National Instruments PXI" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** National Instruments PXI.
+<p align="center"><strong>National Instruments PXI</strong></p>
 
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.2 Motion simulation table </h5> </summary>
 
-#### Figure 3.27: Three Axis Motion Simulator
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/redtable_spec2.png" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Three axis motion simulator model AC3350.
+<p align="center"><strong>Three axis motion simulator model AC3350</strong></p>
 
 </details>
 
@@ -391,26 +363,23 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.4 Software description </h5> </summary>
 
-#### Figure 3.28: Data Flow of PXI Computer
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/dataFlow.PNG" alt="Data Flow" title="Data flow of PXI computer" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Data flow of PXI computer.
+<p align="center"><strong>Data flow of PXI computer</strong></p>
 
-#### Figure 3.29: HIL Front Panel Interface
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Simulation settings in the front panel user interface" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Simulation settings in the front panel user interface.
+<p align="center"><strong>Simulation settings in the front panel user interface</strong></p>
 
-#### Figure 3.30: Serial Communication Panel
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/SerialPanel.png" alt="Serial Panel" title="Serial communication information in the front panel user interface" style="margin: 0 auto; max-width: 400px">
 </p>
 
-**Caption:** Serial communication information in the front panel user interface.
+<p align="center"><strong>Serial communication information in the front panel user interface</strong></p>
 
 </details>
 
