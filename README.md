@@ -646,8 +646,105 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <details>
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;4.2 Results of HIL simulation </h4> </summary>
 
+The HIL Simulations were divided into four steps of development:
+
+- **Phase A**: Using both simulated sensors and simulated actuators
+- **Phase B**: Using simulated sensors but real actuator
+- **Phase C**: Using real sensors, but simulated actuators
+- **Phase D**: Using real hardware for both sensors and actuators
+
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 Test matrix and logged data </h5> </summary>
+
+During Phase D of the HIL, the following tests were proposed for each disturbance:
+
+- **Roll Rate:**
+  - Fixed values of roll rates in steps: 0°/s, 50°/s, 100°/s, 150°/s, 200°/s in both directions
+  - Roll rates induced by fins incident angles of 0.05°, 0.10°, 0.15°, 0.20° in both directions
+
+- **Winds:**
+  - Winds with constant conditions: 10 m/s, 20 m/s, 30 m/s, 40 m/s from different directions (North, Northeast, East, Southeast, South, Southwest, West, Northwest)
+  - Measured wind sets with gust and wind shear up to 40 m/s
+
+- **Nozzle misalignment:**
+  - Deflection angle offset from 0.1°, 0.2°, to 0.5°
+  - Deflection angle offset of 0.3° and fixed roll rate of 100°/s
+
+- **Nozzle eccentricity:**
+  - 0.01 m of nozzle eccentricity, and 0.3° of nozzle misalignment with roll rate of 100°/s
+
+- **Thrust performance variations:**
+  - ±10% in thrust magnitude
+
+- **Variations in Moment induced by Aerodynamics:**
+  - ±20% in M<sub>α</sub> (angular acceleration due to 1° of angle of attack)
+
+- **Variations in Moment induced by the Nozzle:**
+  - ±20% in M<sub>β</sub> (angular acceleration due to 1° of nozzle deflection)
+
+- **M<sub>α</sub>, M<sub>β</sub> and other combinations:**
+  - +20% in M<sub>α</sub> and -20% in M<sub>β</sub>
+  - State before, with gust and share winds up to 30 m/s added
+  - State before, with nozzle misalignment of 0.3° added
+  - State before, with nozzle eccentricity of 0.01m added
+  - State before, with fins misalignment of 0.1° added
+  - State before, including natural oscillations of 20Hz and amplitudes of 3°
+
+**Table: Successful attitude controller tests performed during phase D of HILs**
+
+| # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind Vel. [m/s] | Wind Azi. [°] | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Attitude | 0.00 | 0.00 | 0.0 | 0 | 0 | 1.0 | 1.0 |
+| 2 | Attitude | 0.05 | 0.00 | 0.0 | 0 | 0 | 1.0 | 1.0 |
+| 3 | Attitude | -0.05 | 0.00 | 0.0 | 0 | 0 | 1.0 | 1.0 |
+| 4 | Attitude | 0.05 | 0.00 | 0.0 | 10 | -45 | 1.0 | 1.0 |
+| 5 | Attitude | 0.05 | 0.00 | 0.0 | 10 | 45 | 1.0 | 1.0 |
+| 6 | Attitude | 0.05 | 0.00 | 0.0 | 10 | 135 | 1.0 | 1.0 |
+| 7 | Attitude | 0.05 | 0.00 | 0.0 | 10 | 225 | 1.0 | 1.0 |
+| 8 | Attitude | 0.05 | 0.00 | 0.0 | 20 | -45 | 1.0 | 1.0 |
+| 9 | Attitude | 0.05 | 0.00 | 0.0 | 20 | 45 | 1.0 | 1.0 |
+| 10 | Attitude | 0.05 | 0.00 | 0.0 | 20 | 135 | 1.0 | 1.0 |
+| 11 | Attitude | 0.05 | 0.00 | 0.0 | 20 | 225 | 1.0 | 1.0 |
+| 12 | Attitude | 0.05 | 0.00 | 0.0 | 30 | -45 | 1.0 | 1.0 |
+| 13 | Attitude | 0.05 | 0.00 | 0.0 | 30 | 45 | 1.0 | 1.0 |
+| 14 | Attitude | 0.05 | 0.00 | 0.0 | 30 | 135 | 1.0 | 1.0 |
+| 15 | Attitude | 0.05 | 0.00 | 0.0 | 30 | 225 | 1.0 | 1.0 |
+| 16 | Attitude | 0.10 | 0.00 | 0.0 | 20 | -45 | 1.00 | 1.0 |
+| 17 | Attitude | 0.15 | 0.00 | 0.0 | 20 | -45 | 1.00 | 1.0 |
+| 18 | Attitude | 0.20 | 0.00 | 0.0 | 20 | -45 | 1.00 | 1.0 |
+| 19 | Attitude | -0.20 | 0.00 | 0.0 | 20 | -45 | 1.00 | 1.0 |
+| 20 | Attitude | 0.20 | 0.00 | 0.2 | 20 | -45 | 1.00 | 1.0 |
+| 21 | Attitude | 0.20 | 0.00 | 0.4 | 20 | -45 | 1.00 | 1.0 |
+| 22 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.00 | 1.0 |
+| 23 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 1 | | 1.00 | 1.0 |
+| 24 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 2 | | 1.00 | 1.0 |
+| 25 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 4 | | 1.00 | 1.0 |
+| 26 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.00 | 1.0 |
+| 27 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.20 | 1.0 |
+| 28 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.20 | 0.8 |
+| 29 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.30 | 0.8 |
+| 30 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
+
+**Table: Successful guidance controller tests performed during phase D of HILs**
+
+| # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind Vel. [m/s] | Wind Azi. [°] | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
+|---|---|---|---|---|---|---|---|---|
+| 30 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.00 | 1.0 |
+| 31 | Guidance | -0.20 | 0.02 | 0.4 | 20 | -45 | 1.20 | 0.8 |
+| 32 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 1 | | 1.00 | 1.0 |
+| 33 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
+| 34 | Guidance | -0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
+| 35 | Guidance | 0.10 | 0.02 | 0.4 | 20 | -45 | 1.20 | 1.0 |
+| 36 | Guidance | 0.10 | 0.02 | 0.4 | 20 | | 1.20 | 1.0 |
+| 37 | Guidance | 0.10 | 0.02 | 0.4 | 20 | | 1.20 | 1.0 |
+| 38 | Guidance | 0.10 | 0.02 | 0.4 | 20 | | 1.20 | 1.0 |
+| 39 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 1 | | 1.20 | 1.0 |
+| 40 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 2 | | 1.20 | 1.0 |
+| 41 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 4 | | 1.20 | 1.0 |
+| 42 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
+| 43 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
+| 44 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
+| 45 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/51.png" alt="Test Matrix" title="Test matrix and logged data" style="margin: 0 auto; max-width: 400px">
