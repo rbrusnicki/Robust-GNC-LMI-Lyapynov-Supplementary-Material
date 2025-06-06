@@ -654,7 +654,7 @@ The HIL Simulations were divided into four steps of development:
 - **Phase D**: Using real hardware for both sensors and actuators
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 Test matrix and logged data </h5> </summary>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 Test matrix </h5> </summary>
 
 During Phase D of the HIL, the following tests were proposed for each disturbance:
 
@@ -752,28 +752,10 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
 
 <br><br>
 
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/51.png" alt="Test Matrix" title="Test matrix and logged data" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Test matrix and logged data</strong></p>
-
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/52.png" alt="Logged Data Analysis" title="Detailed logged data analysis" style="margin: 0 auto; max-width: 600px">
-</p>
-
-<p align="center"><strong>Detailed logged data analysis</strong></p>
-
-<br><br>
-
 </details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 Logged data </h5> </summary>
-
-<br><br>
 
 **Table: Logged data for each trial of attitude and guidance HIL tests**
 
