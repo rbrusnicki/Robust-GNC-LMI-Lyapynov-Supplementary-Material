@@ -143,49 +143,56 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 **Caption:** Bode diagram of INS system (DMARS).
 
-#### Figure 3.5: DMARS with Axes Label
+#### Figure 3.5: DMARS Reference System
+<p align="center">
+<img src="Chapter-03-Mathematical-Modeling/DMARS_NRS.png" alt="DMARS Reference System" title="DMARS reference system" style="margin: 0 auto; max-width: 400px">
+</p>
+
+**Caption:** DMARS reference system.
+
+#### Figure 3.6: DMARS with Axes Label
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/DMARS.png" alt="DMARS Configuration" title="DMARS with axes-label" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** DMARS with axes-label.
 
-#### Figure 3.6: Hardware-in-the-Loop Test Overview
+#### Figure 3.7: Hardware-in-the-Loop Test Overview
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/HIL overview.PNG" alt="HIL System Overview" title="Hardware in the loop test overview" style="margin: 0 auto; max-width: 600px">
 </p>
 
 **Caption:** Hardware in the loop test overview.
 
-#### Figure 3.7: National Instruments PXI
+#### Figure 3.8: National Instruments PXI
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/PXI.png" alt="PXI System" title="National Instruments PXI" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** National Instruments PXI.
 
-#### Figure 3.8: Three Axis Motion Simulator
+#### Figure 3.9: Three Axis Motion Simulator
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/redtable_spec2.png" alt="Red Table HIL Facility" title="Three axis motion simulator model AC3350" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Three axis motion simulator model AC3350.
 
-#### Figure 3.9: HIL Front Panel Interface
+#### Figure 3.10: HIL Front Panel Interface
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/FrontPanel.png" alt="HIL Interface" title="Simulation settings in the front panel user interface" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Simulation settings in the front panel user interface.
 
-#### Figure 3.10: Robust Attitude Controller Gains
+#### Figure 3.11: Robust Attitude Controller Gains
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/robust_IPD_gains.png" alt="Robust Controller Gains" title="Scheduled PID gains obtained for the robust attitude controller" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Scheduled PID gains obtained for the robust attitude controller.
 
-#### Figure 3.11: Variation of M_γ Over Time
+#### Figure 3.12: Variation of M_γ Over Time
 <p align="center">
 <img src="Chapter-03-Mathematical-Modeling/M_gamma.png" alt="Robustness Analysis" title="Variation of M_gamma over time" style="margin: 0 auto; max-width: 400px">
 </p>
