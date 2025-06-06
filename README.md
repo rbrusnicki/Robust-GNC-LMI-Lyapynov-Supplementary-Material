@@ -510,15 +510,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;4.1 Results of MATLAB Simulation </h4> </summary>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 Results of conventional attitude controller </h5> </summary>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/47.png" alt="Conventional Attitude Results" title="Results of conventional attitude controller" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Results of conventional attitude controller</strong></p>
-
-<br><br>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 Open Loop Bode Plot of Conventional Attitude Controller </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/Cu_ATT_OL_1_21.png" alt="Current ATT OL 1-21" title="Current attitude open loop 1-21 seconds" style="margin: 0 auto; max-width: 400px">
@@ -563,7 +555,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 Results of conventional guidance controller </h5> </summary>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 Open Loop Bode Plot of Conventional Guidance Controller </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/48.png" alt="Conventional Guidance Results" title="Results of conventional guidance controller" style="margin: 0 auto; max-width: 400px">
