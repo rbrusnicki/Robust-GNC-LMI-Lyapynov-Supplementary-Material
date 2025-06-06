@@ -131,7 +131,7 @@ This Brazilian-German cooperative suborbital launch vehicle serves as the test p
 
 #### Figure 3.3: Flight Phases During Boosted Phase
 <p align="center">
-<img src="Chapter-03-Mathematical-Modeling/Phases.PNG" alt="Flight Phases" title="Different control phases during boosted phase" style="margin: 0 auto; max-width: 400px">
+<img src="Chapter-03-Mathematical-Modeling/Phases.png" alt="Flight Phases" title="Different control phases during boosted phase" style="margin: 0 auto; max-width: 400px">
 </p>
 
 **Caption:** Different control phases during the boosted phase of VS-50 from Alcântara.
