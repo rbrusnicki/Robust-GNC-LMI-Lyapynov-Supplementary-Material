@@ -789,16 +789,6 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
 | 25 | Act 225 | ° | | 52 | Outer Acc Mon | °/s² |
 | 26 | Pitch DMARS | ° | | | | |
 
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/53.png" alt="Test Procedure" title="HIL test procedure" style="margin: 0 auto; max-width: 600px">
-</p>
-
-<p align="center"><strong>HIL test procedure</strong></p>
-
-<br><br>
-
 </details>
 
 <details>
@@ -811,16 +801,6 @@ For each disturbance test of the simulated flight, the criteria used for accepta
 In the same manner, for each disturbance test, as soon as the rocket could not be controlled during the entire boosted phase of the flight, it was assumed that the maximum limit of the current disturbance being tested was achieved. The criterion used for acceptance at the final stage of the Phase D tests was:
 
 ■ *When all the disturbances are included in the simulation, the rocket should perform a stable flight during the entire boosted phase*.
-
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/58.png" alt="Acceptance Criteria" title="Test acceptance criteria" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Test acceptance criteria</strong></p>
-
-<br><br>
 
 </details>
 
@@ -867,14 +847,6 @@ In summary, the successful results achieved are as follows:
 </p>
 
 <p align="center"><strong>HIL result analysis</strong></p>
-
-<br><br>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/60.png" alt="Detailed Analysis" title="Detailed HIL result analysis" style="margin: 0 auto; max-width: 600px">
-</p>
-
-<p align="center"><strong>Detailed HIL result analysis</strong></p>
 
 <br><br>
 
