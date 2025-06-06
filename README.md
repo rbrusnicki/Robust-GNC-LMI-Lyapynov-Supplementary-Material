@@ -504,20 +504,278 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 <details>
-<summary> <h3> 📊 Chapter 4: Results and Analysis </h3> </summary>
+<summary> <h3> 📊 Results and Analysis </h3> </summary>
 
-**Content**: Comprehensive results comparing current vs. proposed controllers, frequency and time domain analysis, robustness verification
+<details>
+<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;4.1 Results of MATLAB Simulation </h4> </summary>
 
-#### Performance Comparison Results
-*Detailed analysis comparing classical PID control with proposed LMI-based robust controllers across various flight conditions and parameter uncertainties*
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1 Results of conventional attitude controller </h5> </summary>
 
-#### Frequency Domain Analysis  
-*Bode plots, stability margins, and robustness analysis for attitude and guidance control systems*
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/47.png" alt="Conventional Attitude Results" title="Results of conventional attitude controller" style="margin: 0 auto; max-width: 400px">
+</p>
 
-#### Time Domain Validation
-*Step responses, tracking performance, and disturbance rejection capabilities under realistic flight scenarios*
+<p align="center"><strong>Results of conventional attitude controller</strong></p>
 
-*Total: 27 high-resolution figures covering comprehensive performance analysis*
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/Cu_ATT_OL_1_21.png" alt="Current ATT OL 1-21" title="Current attitude open loop 1-21 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Current attitude open loop 1-21 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/Cu_ATT_OL_22_32.png" alt="Current ATT OL 22-32" title="Current attitude open loop 22-32 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Current attitude open loop 22-32 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/Cu_ATT_OL_33_38.png" alt="Current ATT OL 33-38" title="Current attitude open loop 33-38 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Current attitude open loop 33-38 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/Cu_ATT_OL_39_71.png" alt="Current ATT OL 39-71" title="Current attitude open loop 39-71 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Current attitude open loop 39-71 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/Cu_ATT_OL_72_82.png" alt="Current ATT OL 72-82" title="Current attitude open loop 72-82 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Current attitude open loop 72-82 seconds</strong></p>
+
+<br><br>
+
+</details>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 Results of conventional guidance controller </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/48.png" alt="Conventional Guidance Results" title="Results of conventional guidance controller" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Results of conventional guidance controller</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/CURRENT_GUI_CL_5_15.png" alt="Current GUI CL 5-15" title="Current guidance closed loop 5-15 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Current guidance closed loop 5-15 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/CURRENT_GUI_CL_45_75.png" alt="Current GUI CL 45-75" title="Current guidance closed loop 45-75 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Current guidance closed loop 45-75 seconds</strong></p>
+
+<br><br>
+
+</details>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 Results of proposed attitude controller via LMI synthesis </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/49.png" alt="Proposed Attitude Results" title="Results of proposed attitude controller via LMI synthesis" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Results of proposed attitude controller via LMI synthesis</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_OL_1_21.png" alt="Robust ATT OL 1-21" title="Robust attitude open loop 1-21 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Robust attitude open loop 1-21 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_OL_22_32.png" alt="Robust ATT OL 22-32" title="Robust attitude open loop 22-32 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Robust attitude open loop 22-32 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_OL_33_39.png" alt="Robust ATT OL 33-39" title="Robust attitude open loop 33-39 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Robust attitude open loop 33-39 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_OL_40_71.png" alt="Robust ATT OL 40-71" title="Robust attitude open loop 40-71 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Robust attitude open loop 40-71 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_OL_72_82.png" alt="Robust ATT OL 72-82" title="Robust attitude open loop 72-82 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Robust attitude open loop 72-82 seconds</strong></p>
+
+<br><br>
+
+</details>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 Results of proposed guidance controller via LMI synthesis </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/50.png" alt="Proposed Guidance Results" title="Results of proposed guidance controller via LMI synthesis" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Results of proposed guidance controller via LMI synthesis</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_GUI_OL_5_15.png" alt="Robust GUI OL 5-15" title="Robust guidance open loop 5-15 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Robust guidance open loop 5-15 seconds</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/ROBUST_GUI_OL_45_75.png" alt="Robust GUI OL 45-75" title="Robust guidance open loop 45-75 seconds" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Robust guidance open loop 45-75 seconds</strong></p>
+
+<br><br>
+
+</details>
+
+</details>
+
+<details>
+<summary> <h4> &nbsp;&nbsp;&nbsp;&nbsp;4.2 Results of HIL simulation </h4> </summary>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1 Test matrix and logged data </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/51.png" alt="Test Matrix" title="Test matrix and logged data" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Test matrix and logged data</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/52.png" alt="Logged Data Analysis" title="Detailed logged data analysis" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Detailed logged data analysis</strong></p>
+
+<br><br>
+
+</details>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 Test procedure </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/53.png" alt="Test Procedure" title="HIL test procedure" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>HIL test procedure</strong></p>
+
+<br><br>
+
+</details>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3 Acceptance criteria </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/58.png" alt="Acceptance Criteria" title="Test acceptance criteria" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Test acceptance criteria</strong></p>
+
+<br><br>
+
+</details>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4 Result analysis </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/59.png" alt="Result Analysis" title="HIL result analysis" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>HIL result analysis</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/60.png" alt="Detailed Analysis" title="Detailed HIL result analysis" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Detailed HIL result analysis</strong></p>
+
+<br><br>
+
+</details>
+
+<details>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5 Performance comparison </h5> </summary>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/61.png" alt="Performance Comparison" title="Controller performance comparison" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Controller performance comparison</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/66.png" alt="Comparison Analysis" title="Detailed performance comparison analysis" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Detailed performance comparison analysis</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/67.png" alt="Final Comparison" title="Final performance comparison results" style="margin: 0 auto; max-width: 400px">
+</p>
+
+<p align="center"><strong>Final performance comparison results</strong></p>
+
+<br><br>
+
+</details>
+
+</details>
 
 </details>
 
