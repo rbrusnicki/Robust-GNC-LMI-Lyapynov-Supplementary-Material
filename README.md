@@ -221,12 +221,6 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 
 </details>
 
-<details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.4 Dead times </h5> </summary>
-
-*Dead time analysis and modeling - figures available in complete collection*
-
-</details>
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.5 Low pass filter </h5> </summary>
@@ -1128,9 +1122,107 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 </details>
 
 <details>
-<summary> <h3> ⚠️ Annex B: Worst Case Scenarios </h3> </summary>
+<summary> <h3> ⚠️ HIL results on Extreme Case Scenario </h3> </summary>
 
 **Content**: Mission performance under extreme conditions, worst-case disturbance analysis, robustness verification
+
+#### Worst Case Scenario of Disturbances - Attitude Controller
+
+<table align="center" style="border-collapse: collapse; margin: 20px auto;">
+<tr style="border: 1px solid black;">
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>#</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Control<br>Type</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Fins<br>Mis.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Nozzle<br>Ecc.<br>[m]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Nozzle<br>Mis.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Wind<br>Vel.<br>[m/s]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Wind<br>Azi.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>M<sub>α</sub><br>[-]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>M<sub>β</sub><br>[-]</strong></th>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black; padding: 8px; text-align: center;">30</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">Attitude</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.30</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.03</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.4</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">20</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">-45</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">1.35</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.8</td>
+</tr>
+</table>
+
+<br><br>
+
+#### Worst Case Scenario of Disturbances - Guidance Controller
+
+<table align="center" style="border-collapse: collapse; margin: 20px auto;">
+<tr style="border: 1px solid black;">
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>#</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Control<br>Type</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Fins<br>Mis.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Nozzle<br>Ecc.<br>[m]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Nozzle<br>Mis.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Wind<br>Vel.<br>[m/s]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Wind<br>Azi.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>M<sub>α</sub><br>[-]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>M<sub>β</sub><br>[-]</strong></th>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black; padding: 8px; text-align: center;">45</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">Guidance</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.20</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.02</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.4</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">20</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">-45</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">1.35</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.8</td>
+</tr>
+</table>
+
+<br><br>
+
+#### Worst Case Scenario of Disturbances - Attitude Controller X Guidance Controller
+
+<table align="center" style="border-collapse: collapse; margin: 20px auto;">
+<tr style="border: 1px solid black;">
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>#</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Control<br>Type</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Fins<br>Mis.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Nozzle<br>Ecc.<br>[m]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Nozzle<br>Mis.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Wind<br>Vel.<br>[m/s]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>Wind<br>Azi.<br>[°]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>M<sub>α</sub><br>[-]</strong></th>
+<th style="border: 1px solid black; padding: 8px; text-align: center;"><strong>M<sub>β</sub><br>[-]</strong></th>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black; padding: 8px; text-align: center;">30</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">Attitude</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.30</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.03</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.4</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">20</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">-45</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">1.35</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.8</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black; padding: 8px; text-align: center;">45</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">Guidance</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.20</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.02</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.4</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">20</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">-45</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">1.35</td>
+<td style="border: 1px solid black; padding: 8px; text-align: center;">0.8</td>
+</tr>
+</table>
+
+<br><br>
 
 #### Extreme Condition Testing
 *Controller performance under maximum parameter uncertainties, worst-case wind disturbances, and extreme flight conditions*
