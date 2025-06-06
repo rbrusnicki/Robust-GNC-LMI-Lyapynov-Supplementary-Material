@@ -690,6 +690,8 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
   - State before, with fins misalignment of 0.1° added
   - State before, including natural oscillations of 20Hz and amplitudes of 3°
 
+<br><br>
+
 **Table: Successful attitude controller tests performed during phase D of HILs**
 
 | # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind Vel. [m/s] | Wind Azi. [°] | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
@@ -725,6 +727,8 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
 | 29 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.30 | 0.8 |
 | 30 | Attitude | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
 
+<br><br>
+
 **Table: Successful guidance controller tests performed during phase D of HILs**
 
 | # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind Vel. [m/s] | Wind Azi. [°] | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
@@ -746,6 +750,8 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
 | 44 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
 | 45 | Guidance | 0.20 | 0.02 | 0.4 | 20 | -45 | 1.35 | 0.8 |
 
+<br><br>
+
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/51.png" alt="Test Matrix" title="Test matrix and logged data" style="margin: 0 auto; max-width: 400px">
 </p>
@@ -765,7 +771,43 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
 </details>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 Test procedure </h5> </summary>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2 Logged data </h5> </summary>
+
+<br><br>
+
+**Table: Logged data for each trial of attitude and guidance HIL tests**
+
+| Position | Physical Value | Unit | | Position | Physical Value | Unit |
+|----------|----------------|------|---|----------|----------------|------|
+| 0 | Time | s | | 27 | Yaw DMARS | ° |
+| 1 | Latitude Sim | ° | | 28 | Roll DMARS | ° |
+| 2 | Longitude Sim | ° | | 29 | Pitch Stream sim | ° |
+| 3 | Altitude Sim | m | | 30 | Yaw Stream sim | ° |
+| 4 | Velocity North Sim | m/s | | 31 | Oil Consumption sim | L |
+| 5 | Velocity East Sim | m/s | | 32 | Speed Pitch sim | ° |
+| 6 | Velocity Up Sim | m/s | | 33 | Speed Yaw sim | ° |
+| 7 | Q0 Sim | - | | 34 | Time motion table | s |
+| 8 | Q1 Sim | - | | 35 | Inner P Com | ° |
+| 9 | Q2 Sim | - | | 36 | Inner R Com | °/s |
+| 10 | Q3 Sim | - | | 37 | Inner Acc Com | °/s² |
+| 11 | Pitch Sim | ° | | 38 | Middle P Com | ° |
+| 12 | Yaw Sim | ° | | 39 | Middle R Com | °/s |
+| 13 | Roll Sim | ° | | 40 | Middle Acc Com | °/s² |
+| 14 | Rates Pitch Sim | °/s | | 41 | Outer P Com | ° |
+| 15 | Rates Yaw Sim | °/s | | 42 | Outer R Com | °/s |
+| 16 | Rates Roll Sim | °/s | | 43 | Outer Acc Com | °/s² |
+| 17 | Acc North Sim | m/s² | | 44 | Inner P Mon | ° |
+| 18 | Acc West Sim | m/s² | | 45 | Inner R Mon | °/s |
+| 19 | Acc Up Sim | m/s² | | 46 | Inner Acc Mon | °/s² |
+| 20 | M<sub>α</sub> Sim | °/s² | | 47 | Middle P Mon | ° |
+| 21 | M<sub>β</sub> Sim | °/s² | | 48 | Middle R Mon | °/s |
+| 22 | AoA pitch | ° | | 49 | Middle Acc Mon | °/s² |
+| 23 | AoA yaw | ° | | 50 | Outer P Mon | ° |
+| 24 | Act 315 | ° | | 51 | Outer R Mon | °/s |
+| 25 | Act 225 | ° | | 52 | Outer Acc Mon | °/s² |
+| 26 | Pitch DMARS | ° | | | | |
+
+<br><br>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/53.png" alt="Test Procedure" title="HIL test procedure" style="margin: 0 auto; max-width: 600px">
@@ -780,6 +822,16 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3 Acceptance criteria </h5> </summary>
 
+For each disturbance test of the simulated flight, the criteria used for acceptance were:
+
+■ *When the current disturbance studied is included in the simulation, the rocket should perform a stable flight during the entire boosted phase*.
+
+In the same manner, for each disturbance test, as soon as the rocket could not be controlled during the entire boosted phase of the flight, it was assumed that the maximum limit of the current disturbance being tested was achieved. The criterion used for acceptance at the final stage of the Phase D tests was:
+
+■ *When all the disturbances are included in the simulation, the rocket should perform a stable flight during the entire boosted phase*.
+
+<br><br>
+
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/58.png" alt="Acceptance Criteria" title="Test acceptance criteria" style="margin: 0 auto; max-width: 400px">
 </p>
@@ -792,6 +844,41 @@ During Phase D of the HIL, the following tests were proposed for each disturbanc
 
 <details>
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4 Result analysis </h5> </summary>
+
+In summary, the successful results achieved are as follows:
+
+• **Roll Rate:**
+  - Stable flights achieved with fixed roll rates up to 190 °/s;
+  - 0.2 degrees of fin incidents angle resulting in a final roll rate around 190 °/s.
+
+• **Wind:**
+  - Stable flights achieved with winds up to 30 m/s from all directions;
+  - Fin incident angle of 0.05°, 0.10°, 0.15°, and 0.20° used during the tests;
+  - 3 sets of measured wind situation (from Alcântara) had been applied, including gust and shear winds up to 40 m/s, with fin incident angle of 0.1°.
+
+• **Nozzle misalignment:**
+  - Nozzle misalignment of 0.4°;
+  - Winds up to 20 m/s from all directions included;
+  - Fin incident angle up to 0.2° included (final roll rate of 190 °/s).
+
+• **Nozzle eccentricity:**
+  - Nozzle eccentricity of 0.02 m included;
+  - Nozzle misalignment of 0.4°;
+  - Fin incident angle of 0.2°.
+
+• **Motor Performance Variation (M<sub>α</sub>):**
+  - -20% of thrust included.
+
+• **Aerodynamic Coefficient Variation (M<sub>β</sub>):**
+  - 35% in aerodynamic effects included.
+
+• **INS misalignment:**
+  - The controller was able to perform a nominal flight even with a simulated misplacement of the INS of 0.5° in all axes of rotation.
+
+• **Eigen Frequencies:**
+  - The filter implemented in the FCC successfully removed the eigenfrequency of 20Hz included in the DMARS attitude data – not inducing rocket natural resonances.
+
+<br><br>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/59.png" alt="Result Analysis" title="HIL result analysis" style="margin: 0 auto; max-width: 400px">
