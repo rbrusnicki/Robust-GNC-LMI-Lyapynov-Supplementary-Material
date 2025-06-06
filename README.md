@@ -960,6 +960,21 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 | 25 | Attitude | 0.20 | 0.00 | 0.4 | wind profile 4 | | 1.0 | 1.0 |
 | 41 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 4 | | 1.2 | 1.0 |
 
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/66.png" alt="Footprint Comparison" title="Footprint comparison of realistic scenario of disturbances" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Footprint comparison of realistic scenario of disturbances</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/67.png" alt="Altitude Comparison" title="Altitude comparison of realistic scenario of disturbances" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Altitude comparison of realistic scenario of disturbances</strong></p>
+
+<br><br>
 
 </details>
 
@@ -968,7 +983,7 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 </details>
 
 <details>
-<summary> <h3> 📈 Annex A: Additional Bode Plots </h3> </summary>
+<summary> <h3> 📈 Additional Results of MATLAB Simulation - Closed Loop Bode Plots </h3> </summary>
 
 **Content**: Detailed frequency response analysis, closed-loop Bode plots, controller comparisons across all flight phases
 
