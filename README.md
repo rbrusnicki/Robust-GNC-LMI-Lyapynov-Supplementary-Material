@@ -558,14 +558,6 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 <summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2 Open Loop Bode Plot of Conventional Guidance Controller </h5> </summary>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/48.png" alt="Conventional Guidance Results" title="Results of conventional guidance controller" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Results of conventional guidance controller</strong></p>
-
-<br><br>
-
-<p align="center">
 <img src="Chapter-04-Results-and-Analysis/CURRENT_GUI_CL_5_15.png" alt="Current GUI CL 5-15" title="Current guidance closed loop 5-15 seconds" style="margin: 0 auto; max-width: 400px">
 </p>
 
@@ -584,15 +576,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 Results of proposed attitude controller via LMI synthesis </h5> </summary>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/49.png" alt="Proposed Attitude Results" title="Results of proposed attitude controller via LMI synthesis" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Results of proposed attitude controller via LMI synthesis</strong></p>
-
-<br><br>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.3 Open Loop Bode Plot of Proposed Attitude Controller via LMI synthesis </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/ROBUST_ATT_OL_1_21.png" alt="Robust ATT OL 1-21" title="Robust attitude open loop 1-21 seconds" style="margin: 0 auto; max-width: 400px">
@@ -637,15 +621,7 @@ Since all coefficients of the rocket attitude plant (C<sub>TVA</sub>, I<sub>x</s
 </details>
 
 <details>
-<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 Results of proposed guidance controller via LMI synthesis </h5> </summary>
-
-<p align="center">
-<img src="Chapter-04-Results-and-Analysis/50.png" alt="Proposed Guidance Results" title="Results of proposed guidance controller via LMI synthesis" style="margin: 0 auto; max-width: 400px">
-</p>
-
-<p align="center"><strong>Results of proposed guidance controller via LMI synthesis</strong></p>
-
-<br><br>
+<summary> <h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.4 Open Loop Bode Plot of Proposed Guidance Controller via LMI synthesis </h5> </summary>
 
 <p align="center">
 <img src="Chapter-04-Results-and-Analysis/ROBUST_GUI_OL_5_15.png" alt="Robust GUI OL 5-15" title="Robust guidance open loop 5-15 seconds" style="margin: 0 auto; max-width: 400px">
