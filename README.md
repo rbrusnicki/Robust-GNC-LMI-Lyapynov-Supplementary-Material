@@ -1,27 +1,23 @@
 # VS-50 Supplementary Material Repository
 
-<p align="center">
-<img src="Chapter-01-Introduction/VS-50.png" alt="VS-50 Launch Vehicle" title="VS-50 suborbital launch vehicle" style="margin: 0 auto; max-width: 400px">
-</p>
-
 ## Robust Attitude and Guidance Control for a Launch Vehicle System: A Lyapunov-LMI Framework with HIL Validation
 
-This repository contains supplementary material for the Master's thesis:
+This repository contains supplementary material for the journal paper:
 
-**"Robust Attitude and Guidance Control for the VS-50 Launch Vehicle Via LMI Synthesis"**
+**"Robust Attitude and Guidance Control for a Launch Vehicle System: A Lyapunov-LMI Framework with HIL Validation"**
 
-**Author:** Roberto Brusnicki  
-**Institution:** Instituto Tecnológico de Aeronáutica (ITA)  
-**Program:** Master of Science in Electronic and Computer Engineering  
+**Authors:** Roberto Brusnicki (TUM), Cesar Batagini (IAE), Josef Ettl (DLR), Renan Lima Pereira (ITA)  
+**Journal:** International Journal of Aeronautical and Space Sciences  
+**Status:** Under Review  
 **Year:** 2025  
 
 ## 📋 Repository Overview
 
-This repository provides high-resolution figures, detailed analysis results, and supplementary documentation that complement the published thesis. All materials are organized according to the thesis PDF chapter structure for easy reference.
+This repository provides high-resolution figures, detailed analysis results, and comprehensive technical documentation that could not be included in the journal paper due to space constraints. All materials are organized systematically to complement the published research and provide deeper insights into the methodology and results.
 
 ### 🚀 Project Background
 
-The VS-50 is a suborbital launch vehicle developed through Brazilian-German cooperation between IAE (Instituto de Aeronáutica e Espaço) and DLR (Deutsches Zentrum für Luft- und Raumfahrt). This thesis presents robust control strategies using Linear Matrix Inequality (LMI) synthesis for attitude and guidance control systems.
+The VS-50 is a suborbital launch vehicle developed through Brazilian-German cooperation between IAE (Instituto de Aeronáutica e Espaço) and DLR (Deutsches Zentrum für Luft- und Raumfahrt). This research presents robust control strategies using Linear Matrix Inequality (LMI) synthesis for attitude and guidance control systems, with comprehensive Hardware-in-the-Loop validation.
 
 ## 📁 Repository Structure
 
@@ -45,14 +41,14 @@ VS50-Supplementary-Material/
 <details>
 <summary> <h3> 📚 Chapter 1: Introduction (1 figure) </h3> </summary>
 
-**Content**: Project background, vehicle specifications, research objectives, VS-50 launch vehicle overview
+**Content**: Research motivation, problem formulation, control objectives, VS-50 launch vehicle system overview
 
-#### Figure 1.1: VS-50 Launch Vehicle
+#### Figure 1.1: VS-50 Launch Vehicle System
 <p align="center">
 <img src="Chapter-01-Introduction/VS-50.png" alt="VS-50 Launch Vehicle" title="VS-50 suborbital launch vehicle configuration" style="margin: 0 auto; max-width: 600px">
 </p>
 
-Complete overview of the VS-50 suborbital launch vehicle showing the overall configuration, dimensions, and key components developed through Brazilian-German cooperation (IAE-DLR).
+Complete overview of the VS-50 suborbital launch vehicle showing the overall configuration, dimensions, and key components. This Brazilian-German cooperative vehicle serves as the test platform for advanced robust control methodologies.
 
 </details>
 
@@ -211,9 +207,9 @@ Complete overview of the VS-50 suborbital launch vehicle showing the overall con
 
 </details>
 
-## 🔗 Related Publications
+## 🔗 Main Publication
 
-### Submitted Journal Paper
+### Journal Paper
 **Title:** "Robust Attitude and Guidance Control for a Launch Vehicle System: A Lyapunov-LMI Framework with HIL Validation"
 
 **Authors:** 
@@ -222,16 +218,16 @@ Complete overview of the VS-50 suborbital launch vehicle showing the overall con
 - Josef Ettl (DLR)
 - Renan Lima Pereira (ITA)
 
-**Journal:** Aerospace Science and Technology (Under Review)
+**Journal:** International Journal of Aeronautical and Space Sciences (Under Review)
 
 <details>
 <summary> <h2> 📚 How to Use This Repository </h2> </summary>
 
 ### For Researchers
-1. **Reference Figures**: All figures are numbered according to the thesis PDF
+1. **Reference Figures**: All figures are organized systematically with detailed descriptions
 2. **High-Resolution Access**: Download original image files for presentations/papers
-3. **Detailed Analysis**: Explore comprehensive results in each chapter directory
-4. **Methodology Understanding**: Review mathematical models and control architectures
+3. **Detailed Analysis**: Explore comprehensive results beyond journal paper constraints
+4. **Methodology Understanding**: Review complete mathematical models and control architectures
 
 ### For Students
 1. **Learning Resource**: Study control system design methodologies
@@ -263,13 +259,13 @@ This work was conducted under the Brazilian-German cooperation in space technolo
 If you use this material in your research, please cite:
 
 ```bibtex
-@mastersthesis{brusnicki2025robust,
-  title={Robust Attitude and Guidance Control for the VS-50 Launch Vehicle Via LMI Synthesis},
-  author={Brusnicki, Roberto},
+@article{brusnicki2025robust,
+  title={Robust Attitude and Guidance Control for a Launch Vehicle System: A Lyapunov-LMI Framework with HIL Validation},
+  author={Brusnicki, Roberto and Batagini, Cesar and Ettl, Josef and Pereira, Renan Lima},
+  journal={International Journal of Aeronautical and Space Sciences},
   year={2025},
-  school={Instituto Tecnológico de Aeronáutica},
-  type={Master's thesis},
-  address={São José dos Campos, Brazil}
+  status={Under Review},
+  note={Supplementary material available at: https://github.com/YOUR_USERNAME/VS50-Supplementary-Material}
 }
 ```
 
@@ -289,4 +285,4 @@ This repository is provided for academic and research purposes. Please refer to 
 **Last Updated:** June 2025  
 **Repository Version:** 1.0  
 **Total Figures:** 88  
-**Thesis Status:** Completed 
+**Paper Status:** Under Review 
