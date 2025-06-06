@@ -908,10 +908,10 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 <br><br>
 
 <p align="center">
-<img src="Chapter-04-Results-and-Analysis/53.png" alt="Realistic Attitude Zoom" title="Zoom-in version of attitude behavior" style="margin: 0 auto; max-width: 600px">
+<img src="Chapter-04-Results-and-Analysis/53.png" alt="Realistic Attitude Zoom" title="Zoom-in version of previous figure" style="margin: 0 auto; max-width: 600px">
 </p>
 
-<p align="center"><strong>Zoom-in version of attitude behavior</strong></p>
+<p align="center"><strong>Zoom-in version of previous figure</strong></p>
 
 <br><br>
 
@@ -920,6 +920,36 @@ The cases listed below were the chosen ones from the attitude and guidance HIL t
 | # | Control Type | Fins Mis. [°] | Nozzle Ecc. [m] | Nozzle Mis. [°] | Wind | | M<sub>α</sub> [-] | M<sub>β</sub> [-] |
 |---|--------------|---------------|------------------|------------------|------|---|---------------------|---------------------|
 | 41 | Guidance | 0.10 | 0.02 | 0.2 | wind profile 4 | | 1.2 | 1.0 |
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/58.png" alt="Realistic Guidance Footprint" title="Footprint of realistic scenario of disturbances using guidance control" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Footprint of realistic scenario of disturbances using guidance control</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/59.png" alt="Realistic Guidance Altitude" title="Altitude of realistic scenario of disturbances using guidance control" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Altitude of realistic scenario of disturbances using guidance control</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/60.png" alt="Realistic Guidance Attitude 1" title="Attitude of realistic scenario of disturbances using guidance control" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Attitude of realistic scenario of disturbances using guidance control</strong></p>
+
+<br><br>
+
+<p align="center">
+<img src="Chapter-04-Results-and-Analysis/61.png" alt="Realistic Guidance Attitude 2" title="Attitude of realistic scenario of disturbances using guidance control" style="margin: 0 auto; max-width: 600px">
+</p>
+
+<p align="center"><strong>Attitude of realistic scenario of disturbances using guidance control</strong></p>
 
 <br><br>
 
