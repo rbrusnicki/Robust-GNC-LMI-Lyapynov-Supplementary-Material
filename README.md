@@ -23,7 +23,7 @@ The VS-50 is a suborbital launch vehicle developed through Brazilian-German coop
 
 ```
 Robust-GNC-LMI-Lyapynov-Supplementary-Material/
-├── 01-Introduction/                  (1 figure)
+├── 01-Introduction/                  (4 figures)
 ├── 02-Mathematical-Foundations/      (7 figures)  
 ├── 03-Control-Systems-Design/        (28 figures)
 ├── 04-Results-and-Analysis/          (27 figures)
@@ -51,6 +51,47 @@ Robust-GNC-LMI-Lyapynov-Supplementary-Material/
 **Caption:** VS-50 launch vehicle.
 
 This Brazilian-German cooperative suborbital launch vehicle serves as the test platform for advanced robust control methodologies presented in this research.
+
+#### Figure 1.2: VS-50 Motor Thrust Profile
+<p align="center">
+<img src="01-Introduction/Motor Thrust Profile.png" alt="VS-50 Motor Thrust Profile" title="VS-50 motor thrust profile and thrust-to-weight ratio" style="margin: 0 auto; max-width: 600px">
+</p>
+
+**Caption:** VS-50 motor thrust profile showing actual thrust (with atmospheric pressure), vacuum thrust, and thrust-to-weight ratio during powered flight.
+
+**Statistics:** Max Thrust: 533.0 kN | Avg Thrust: 445.2 kN | Total Impulse: 36733 kN⋅s
+
+The motor provides thrust for 82.5 seconds with a characteristic profile showing initial thrust, a mid-flight dip, peak performance around 40-50 seconds, and controlled burnout. The thrust-to-weight ratio peaks at approximately 7.4, well above the minimum T/W = 1 requirement for vertical ascent.
+
+#### Figure 1.3: Vehicle Mass and Moment of Inertia Variation
+<p align="center">
+<img src="01-Introduction/Vehicle Moments of Inertia.png" alt="Vehicle Mass and Moment of Inertia Variation" title="Vehicle mass and moment of inertia variation during powered flight" style="margin: 0 auto; max-width: 600px">
+</p>
+
+**Caption:** Vehicle mass and moment of inertia variation during powered flight showing the dramatic parameter changes that create control challenges.
+
+**Critical Parameters:**
+- **Initial Mass:** 15,644 kg → **Final Mass:** 3,603 kg (**Mass Loss:** 12,041 kg)
+- **Ixx (Roll):** ~77,000 → ~47,000 kg⋅m² (39% reduction)
+- **Iyy (Pitch):** ~77,000 → ~47,000 kg⋅m² (39% reduction) 
+- **Izz (Yaw):** ~4,500 → ~1,500 kg⋅m² (67% reduction)
+
+These dramatic parameter variations (77% mass reduction, up to 67% moment of inertia reduction) represent the fundamental challenge for robust control design, requiring controllers that maintain stability and performance across this wide operating envelope.
+
+#### Figure 1.4: Center of Gravity and Center of Pressure Variation
+<p align="center">
+<img src="01-Introduction/CoG and CoP.png" alt="Center of Gravity and Center of Pressure Variation" title="Center of gravity and center of pressure variation with static margin analysis" style="margin: 0 auto; max-width: 600px">
+</p>
+
+**Caption:** Center of gravity and center of pressure variation during flight with static margin analysis showing critical stability regions.
+
+**Aerodynamic Stability Analysis:**
+- **Critical Unstable Period:** ~10-30 seconds (negative static margin)
+- **Stable Flight Phase:** After ~30 seconds (positive static margin up to 2.2m)
+- **CoG Shift:** -8.0m → -7.0m (1m forward displacement due to propellant consumption)
+- **CoP Evolution:** Complex variation from -8.3m to -4.8m (aerodynamic and mass distribution effects)
+
+**Control Implications:** The negative static margin during 10-30 seconds requires active attitude control for stability, while the later positive margin provides natural stability but demands precise control for trajectory accuracy.
 
 </details>
 

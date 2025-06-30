@@ -17,6 +17,81 @@ This chapter introduces the VS-50 suborbital launch vehicle project and establis
 - **Primary Mission:** Technology demonstration for micro-satellite launch capabilities
 - **Cooperation:** Brazilian-German joint development (IAE-DLR)
 
+### Figure 1.2: VS-50 Motor Thrust Profile
+**File:** `Motor Thrust Profile.png`
+
+**Description:** Comprehensive thrust profile and performance characteristics of the VS-50 motor during powered flight, including both actual thrust (with atmospheric pressure effects) and vacuum thrust, along with the thrust-to-weight ratio evolution.
+
+**Statistics:** Max Thrust: 533.0 kN | Avg Thrust: 445.2 kN | Total Impulse: 36733 kN⋅s
+
+**Key Performance Parameters:**
+- **Burn Duration:** 82.5 seconds total powered flight
+- **Peak Thrust:** 533.0 kN (vacuum conditions)
+- **Thrust Profile:** Variable thrust with characteristic mid-flight dip and peak performance around 40-50 seconds
+- **Maximum T/W Ratio:** ~7.4 (well above minimum T/W = 1 for vertical ascent)
+- **Thrust Variation:** Shows realistic atmospheric pressure effects on actual thrust performance
+
+**Engineering Significance:**
+- **Control Design Impact:** Variable thrust profile affects vehicle dynamics and control requirements
+- **Mission Analysis:** T/W ratio evolution critical for trajectory planning and control system design
+- **Performance Validation:** Actual vs. vacuum thrust comparison validates propulsion model accuracy
+
+### Figure 1.3: Vehicle Mass and Moment of Inertia Variation
+**File:** `Vehicle Moments of Inertia.png`
+
+**Description:** Comprehensive time evolution of vehicle mass and three-axis moments of inertia during powered flight, illustrating the dramatic parameter variations that constitute the primary challenge for robust control system design.
+
+**Critical Parameter Changes:**
+- **Mass Variation:** 15,644 kg → 3,603 kg (77% reduction, 12,041 kg propellant consumed)
+- **Roll Moment (Ixx):** ~77,000 → ~47,000 kg⋅m² (39% reduction)
+- **Pitch Moment (Iyy):** ~77,000 → ~47,000 kg⋅m² (39% reduction)
+- **Yaw Moment (Izz):** ~4,500 → ~1,500 kg⋅m² (67% reduction)
+
+**Control Design Implications:**
+- **Parameter Uncertainty:** Massive variations require robust control approaches
+- **Gain Scheduling:** Traditional fixed-gain controllers inadequate for this envelope
+- **LMI Synthesis Justification:** Wide parameter variations motivate robust control framework
+- **Performance Challenges:** Maintaining stability and tracking across dramatic operating point changes
+
+**Physical Interpretation:**
+- **Mass Loss Rate:** Approximately 146 kg/s average propellant consumption
+- **Inertia Coupling:** Different reduction rates between axes create control coupling challenges
+- **Dynamic Response:** Varying inertia directly affects attitude control bandwidth and response
+- **Robustness Requirements:** Controllers must handle 2.5x-4x parameter variations
+
+### Figure 1.4: Center of Gravity and Center of Pressure Variation
+**File:** `CoG and CoP.png`
+
+**Description:** Comprehensive analysis of aerodynamic stability through center of gravity (CoG) and center of pressure (CoP) evolution during powered flight, including critical static margin analysis that determines vehicle stability characteristics.
+
+**Aerodynamic Stability Parameters:**
+- **CoG Evolution:** -8.0m → -7.0m (1.0m forward shift due to propellant consumption)
+- **CoP Variation:** -8.3m → -4.8m (3.5m total displacement from aerodynamic/geometric changes)
+- **Static Margin Range:** -1.0m to +2.2m (critical stability parameter)
+
+**Flight Phase Analysis:**
+- **Phase 1 (0-10s):** Marginally stable with small negative static margin (~-0.3m)
+- **Phase 2 (10-30s):** **Critical unstable region** with negative static margin (-1.0m minimum)
+- **Phase 3 (30-82s):** Stable flight with increasing positive static margin (up to +2.2m)
+
+**Control System Requirements:**
+- **Active Stabilization:** Essential during 10-30s unstable period for flight safety
+- **Precision Control:** Required during stable phase for trajectory accuracy
+- **Transition Management:** Smooth control authority transition between stability regimes
+- **Robustness Design:** Must handle aerodynamic uncertainty across all flight phases
+
+**Physical Interpretation:**
+- **CoG Forward Movement:** Propellant consumption shifts mass distribution forward
+- **CoP Complex Evolution:** Combined effects of changing mass distribution, vehicle geometry, and aerodynamic flow patterns
+- **Static Margin Physics:** Positive margin = natural stability, negative margin = inherent instability requiring active control
+- **Control Authority:** Aerodynamic control effectiveness varies with dynamic pressure and static margin
+
+**Design Significance:**
+- **Traditional Control Limitation:** Fixed-gain controllers cannot handle stability regime transitions
+- **Robust Control Justification:** Wide stability margin variations require adaptive/robust approaches
+- **Safety Critical:** Control system failure during unstable phase results in mission loss
+- **Performance Optimization:** Optimal control strategies differ between stable and unstable flight phases
+
 ## Chapter Content Summary
 
 ### Research Context
@@ -94,6 +169,6 @@ This chapter references key literature in:
 
 ---
 
-**Figure Count:** 1  
+**Figure Count:** 4  
 **Content Type:** Project introduction and background  
 **Technical Level:** Overview and motivation 

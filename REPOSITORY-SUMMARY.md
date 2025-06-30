@@ -7,7 +7,7 @@ This document summarizes the complete VS-50 supplementary material repository th
 ## 📊 Repository Statistics
 
 ### File Organization
-- **Total High-Resolution Figures:** 88
+- **Total High-Resolution Figures:** 91
 - **Total Size:** ~50MB
 - **Repository Structure:** PDF-based chapter organization
 - **Documentation Files:** 8 comprehensive README files
@@ -16,9 +16,12 @@ This document summarizes the complete VS-50 supplementary material repository th
 ### Chapter Breakdown
 ```
 📁 Robust-GNC-LMI-Lyapynov-Supplementary-Material/
-├── 📁 01-Introduction/                  (1 figure)
-│   ├── README.md                        (3.9KB detailed documentation)
-│   └── VS-50.png                        (431KB high-resolution)
+├── 📁 01-Introduction/                  (4 figures)
+│   ├── README.md                        (6.5KB detailed documentation)
+│   ├── VS-50.png                        (431KB high-resolution)
+│   ├── Motor Thrust Profile.png         (110KB performance charts)
+│   ├── Vehicle Moments of Inertia.png   (115KB parameter variations)
+│   └── CoG and CoP.png                  (115KB stability analysis)
 │
 ├── 📁 02-Mathematical-Foundations/      (7 figures)
 │   ├── README.md                        (7.0KB detailed documentation)
@@ -151,7 +154,7 @@ brazilian-german-cooperation
 ## 📋 Quality Assurance
 
 ### Verification Completed
-- ✅ All 88 figures correctly organized and placed
+- ✅ All 91 figures correctly organized and placed
 - ✅ PDF-to-LaTeX mapping verified and documented
 - ✅ Comprehensive documentation created for all chapters
 - ✅ Main README provides complete project overview
