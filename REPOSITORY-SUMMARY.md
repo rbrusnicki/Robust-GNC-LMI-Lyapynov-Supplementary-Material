@@ -15,12 +15,12 @@ This document summarizes the complete VS-50 supplementary material repository th
 
 ### Chapter Breakdown
 ```
-📁 VS50-Supplementary-Material/
-├── 📁 Chapter-01-Introduction/          (1 figure)
+📁 Robust-GNC-LMI-Lyapynov-Supplementary-Material/
+├── 📁 01-Introduction/                  (1 figure)
 │   ├── README.md                        (3.9KB detailed documentation)
 │   └── VS-50.png                        (431KB high-resolution)
 │
-├── 📁 Chapter-02-Literature-Review/     (7 figures)
+├── 📁 02-Mathematical-Foundations/      (7 figures)
 │   ├── README.md                        (7.0KB detailed documentation)
 │   ├── IAE_NRS.png                      (734KB)
 │   ├── DLR_NRS.png                      (1.1MB)
@@ -30,11 +30,11 @@ This document summarizes the complete VS-50 supplementary material repository th
 │   ├── EulerAngles.png                  (37KB)
 │   └── AoA.png                          (41KB)
 │
-├── 📁 Chapter-03-Mathematical-Modeling/ (28 figures)
+├── 📁 03-Control-Systems-Design/        (28 figures)
 │   ├── README.md                        (comprehensive documentation)
 │   └── [28 high-resolution PNG files]
 │
-├── 📁 Chapter-04-Results-and-Analysis/  (27 figures)
+├── 📁 04-Results-and-Analysis/          (27 figures)
 │   └── [27 high-resolution PNG files]
 │
 ├── 📁 Annex-A-Bode-Plots/              (15 figures)
@@ -95,7 +95,7 @@ This document summarizes the complete VS-50 supplementary material repository th
 ## 🌐 GitHub Repository Features
 
 ### Repository Metadata
-- **Name:** `VS50-Supplementary-Material`
+- **Name:** `Robust-GNC-LMI-Lyapynov-Supplementary-Material`
 - **Description:** "Supplementary material for VS-50 launch vehicle robust control thesis"
 - **Visibility:** Public (recommended for research dissemination)
 - **License:** Academic and research purposes
